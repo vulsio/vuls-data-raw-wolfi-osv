@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-qrm4-xg34-f43c",
+	"modified": "2024-02-16T07:34:47Z",
+	"published": "2024-06-06T12:29:09.800099Z",
+	"related": [
+		"CGA-qrm4-xg34-f43c",
+		"CVE-2023-45285",
+		"GHSA-5f94-vhjq-rpg8"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "influx",
+				"purl": "pkg:apk/chainguard/influx"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.7.3-r8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-qrm4-xg34-f43c.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "influx",
+				"purl": "pkg:apk/wolfi/influx"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.7.3-r8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-qrm4-xg34-f43c.json"
+			}
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-v945-m2w8-cpfx",
+	"modified": "2024-09-18T21:11:08Z",
+	"published": "2024-09-25T05:35:05.849366Z",
+	"related": [
+		"CGA-v945-m2w8-cpfx",
+		"CVE-2024-34156",
+		"GHSA-crqm-pwhx-j97f"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "overmind",
+				"purl": "pkg:apk/chainguard/overmind"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.5.1-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-v945-m2w8-cpfx.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "overmind",
+				"purl": "pkg:apk/wolfi/overmind"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.5.1-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-v945-m2w8-cpfx.json"
+			}
+		}
+	]
+}

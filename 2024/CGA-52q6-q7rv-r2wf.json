@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-52q6-q7rv-r2wf",
+	"modified": "2023-10-13T12:38:19Z",
+	"published": "2024-06-06T12:23:53.010610Z",
+	"related": [
+		"CGA-52q6-q7rv-r2wf",
+		"CVE-2023-3978",
+		"GHSA-2wrh-6pvc-2jm9"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "bank-vaults",
+				"purl": "pkg:apk/chainguard/bank-vaults"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.20.4-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-52q6-q7rv-r2wf.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "bank-vaults",
+				"purl": "pkg:apk/wolfi/bank-vaults"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.20.4-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-52q6-q7rv-r2wf.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "bank-vaults-template",
+				"purl": "pkg:apk/chainguard/bank-vaults-template"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.20.4-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-52q6-q7rv-r2wf.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "bank-vaults-template",
+				"purl": "pkg:apk/wolfi/bank-vaults-template"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.20.4-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-52q6-q7rv-r2wf.json"
+			}
+		}
+	]
+}

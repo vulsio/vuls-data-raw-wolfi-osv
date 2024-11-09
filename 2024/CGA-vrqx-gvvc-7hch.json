@@ -1,0 +1,151 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-vrqx-gvvc-7hch",
+	"modified": "2024-04-19T07:16:03Z",
+	"published": "2024-06-06T12:29:36.794660Z",
+	"related": [
+		"CGA-vrqx-gvvc-7hch",
+		"CVE-2024-1249",
+		"GHSA-m6q9-p373-g5q8"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "keycloak",
+				"purl": "pkg:apk/chainguard/keycloak"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "24.0.3-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-vrqx-gvvc-7hch.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "keycloak",
+				"purl": "pkg:apk/wolfi/keycloak"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "24.0.3-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-vrqx-gvvc-7hch.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "keycloak-bitnami-compat",
+				"purl": "pkg:apk/chainguard/keycloak-bitnami-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "24.0.3-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-vrqx-gvvc-7hch.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "keycloak-bitnami-compat",
+				"purl": "pkg:apk/wolfi/keycloak-bitnami-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "24.0.3-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-vrqx-gvvc-7hch.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "keycloak-compat",
+				"purl": "pkg:apk/chainguard/keycloak-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "24.0.3-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-vrqx-gvvc-7hch.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "keycloak-compat",
+				"purl": "pkg:apk/wolfi/keycloak-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "24.0.3-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-vrqx-gvvc-7hch.json"
+			}
+		}
+	]
+}

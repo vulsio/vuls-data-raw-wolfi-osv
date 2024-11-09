@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-xqqx-pqcc-mwfr",
+	"modified": "2024-03-13T11:12:03Z",
+	"published": "2024-06-06T12:30:03.219912Z",
+	"related": [
+		"CGA-xqqx-pqcc-mwfr",
+		"CVE-2024-24783",
+		"GHSA-3q2c-pvp5-3cqp"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "local-path-provisioner",
+				"purl": "pkg:apk/chainguard/local-path-provisioner"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.0.26-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-xqqx-pqcc-mwfr.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "local-path-provisioner",
+				"purl": "pkg:apk/wolfi/local-path-provisioner"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.0.26-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-xqqx-pqcc-mwfr.json"
+			}
+		}
+	]
+}

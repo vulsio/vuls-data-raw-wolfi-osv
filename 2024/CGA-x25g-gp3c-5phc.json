@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-x25g-gp3c-5phc",
+	"modified": "2024-05-06T00:50:28Z",
+	"published": "2024-06-06T12:26:32.461802Z",
+	"related": [
+		"CGA-x25g-gp3c-5phc",
+		"CVE-2021-39156",
+		"GHSA-hqxw-mm44-gc4r"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "istio-pilot-discovery-1.21",
+				"purl": "pkg:apk/chainguard/istio-pilot-discovery-1.21"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-x25g-gp3c-5phc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "istio-pilot-discovery-1.21",
+				"purl": "pkg:apk/wolfi/istio-pilot-discovery-1.21"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-x25g-gp3c-5phc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "istio-pilot-discovery-1.21-compat",
+				"purl": "pkg:apk/chainguard/istio-pilot-discovery-1.21-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-x25g-gp3c-5phc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "istio-pilot-discovery-1.21-compat",
+				"purl": "pkg:apk/wolfi/istio-pilot-discovery-1.21-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-x25g-gp3c-5phc.json"
+			}
+		}
+	]
+}

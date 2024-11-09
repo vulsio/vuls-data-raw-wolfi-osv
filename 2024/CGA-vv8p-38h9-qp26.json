@@ -1,0 +1,58 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-vv8p-38h9-qp26",
+	"modified": "2024-07-25T13:23:28Z",
+	"published": "2024-07-25T14:19:47.509796Z",
+	"related": [
+		"CGA-vv8p-38h9-qp26",
+		"GHSA-xr7q-jx4m-x55m"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "grafana-agent-operator",
+				"purl": "pkg:apk/chainguard/grafana-agent-operator"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.42.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-vv8p-38h9-qp26.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "grafana-agent-operator",
+				"purl": "pkg:apk/wolfi/grafana-agent-operator"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.42.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-vv8p-38h9-qp26.json"
+			}
+		}
+	]
+}

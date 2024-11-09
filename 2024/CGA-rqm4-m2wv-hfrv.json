@@ -1,0 +1,151 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-rqm4-m2wv-hfrv",
+	"modified": "2024-04-09T17:19:27Z",
+	"published": "2024-06-06T12:29:23.673318Z",
+	"related": [
+		"CGA-rqm4-m2wv-hfrv",
+		"CVE-2022-29526",
+		"GHSA-p782-xgp4-8hr8"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "k3d",
+				"purl": "pkg:apk/chainguard/k3d"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.6.0-r11"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-rqm4-m2wv-hfrv.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "k3d",
+				"purl": "pkg:apk/wolfi/k3d"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.6.0-r11"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-rqm4-m2wv-hfrv.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "k3d-proxy",
+				"purl": "pkg:apk/chainguard/k3d-proxy"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.6.0-r11"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-rqm4-m2wv-hfrv.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "k3d-proxy",
+				"purl": "pkg:apk/wolfi/k3d-proxy"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.6.0-r11"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-rqm4-m2wv-hfrv.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "k3d-tools",
+				"purl": "pkg:apk/chainguard/k3d-tools"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.6.0-r11"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-rqm4-m2wv-hfrv.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "k3d-tools",
+				"purl": "pkg:apk/wolfi/k3d-tools"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.6.0-r11"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-rqm4-m2wv-hfrv.json"
+			}
+		}
+	]
+}

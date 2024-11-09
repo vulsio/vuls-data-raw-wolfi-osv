@@ -1,0 +1,151 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-5c7f-x484-w4h7",
+	"modified": "2024-03-15T00:35:37Z",
+	"published": "2024-06-06T12:24:05.790440Z",
+	"related": [
+		"CGA-5c7f-x484-w4h7",
+		"CVE-2024-24786",
+		"GHSA-8r3f-844c-mc37"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "argo-cd-2.10",
+				"purl": "pkg:apk/chainguard/argo-cd-2.10"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.10.3-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-5c7f-x484-w4h7.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "argo-cd-2.10",
+				"purl": "pkg:apk/wolfi/argo-cd-2.10"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.10.3-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-5c7f-x484-w4h7.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "argo-cd-2.10-compat",
+				"purl": "pkg:apk/chainguard/argo-cd-2.10-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.10.3-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-5c7f-x484-w4h7.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "argo-cd-2.10-compat",
+				"purl": "pkg:apk/wolfi/argo-cd-2.10-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.10.3-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-5c7f-x484-w4h7.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "argo-cd-2.10-repo-server",
+				"purl": "pkg:apk/chainguard/argo-cd-2.10-repo-server"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.10.3-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-5c7f-x484-w4h7.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "argo-cd-2.10-repo-server",
+				"purl": "pkg:apk/wolfi/argo-cd-2.10-repo-server"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.10.3-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-5c7f-x484-w4h7.json"
+			}
+		}
+	]
+}

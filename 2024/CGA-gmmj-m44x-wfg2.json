@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-gmmj-m44x-wfg2",
+	"modified": "2024-03-12T07:15:15Z",
+	"published": "2024-06-06T12:27:30.273325Z",
+	"related": [
+		"CGA-gmmj-m44x-wfg2",
+		"CVE-2023-45289",
+		"GHSA-32ch-6x54-q4h9"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "gitlab-logger",
+				"purl": "pkg:apk/chainguard/gitlab-logger"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.0.0-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-gmmj-m44x-wfg2.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "gitlab-logger",
+				"purl": "pkg:apk/wolfi/gitlab-logger"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.0.0-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-gmmj-m44x-wfg2.json"
+			}
+		}
+	]
+}

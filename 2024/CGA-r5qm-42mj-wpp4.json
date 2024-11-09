@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-r5qm-42mj-wpp4",
+	"modified": "2024-09-11T11:24:58Z",
+	"published": "2024-09-11T12:06:19.344998Z",
+	"related": [
+		"CGA-r5qm-42mj-wpp4",
+		"CVE-2024-34156",
+		"GHSA-crqm-pwhx-j97f"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "buildah",
+				"purl": "pkg:apk/chainguard/buildah"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.37.2-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-r5qm-42mj-wpp4.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "buildah",
+				"purl": "pkg:apk/wolfi/buildah"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.37.2-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-r5qm-42mj-wpp4.json"
+			}
+		}
+	]
+}

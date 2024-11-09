@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-pg24-52xv-94mf",
+	"modified": "2024-03-12T07:11:54Z",
+	"published": "2024-06-06T12:28:45.407898Z",
+	"related": [
+		"CGA-pg24-52xv-94mf",
+		"CVE-2023-45289",
+		"GHSA-32ch-6x54-q4h9"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "aws-flb-cloudwatch",
+				"purl": "pkg:apk/chainguard/aws-flb-cloudwatch"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.9.4-r7"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-pg24-52xv-94mf.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "aws-flb-cloudwatch",
+				"purl": "pkg:apk/wolfi/aws-flb-cloudwatch"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.9.4-r7"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-pg24-52xv-94mf.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "aws-flb-cloudwatch-compat",
+				"purl": "pkg:apk/chainguard/aws-flb-cloudwatch-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.9.4-r7"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-pg24-52xv-94mf.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "aws-flb-cloudwatch-compat",
+				"purl": "pkg:apk/wolfi/aws-flb-cloudwatch-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.9.4-r7"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-pg24-52xv-94mf.json"
+			}
+		}
+	]
+}

@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-7566-xxpp-c9gj",
+	"modified": "2024-07-04T12:13:38Z",
+	"published": "2024-07-15T21:53:50.695743Z",
+	"related": [
+		"CGA-7566-xxpp-c9gj",
+		"CVE-2024-24791",
+		"GHSA-hw49-2p59-3mhj"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "velero-plugin-for-aws",
+				"purl": "pkg:apk/chainguard/velero-plugin-for-aws"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.10.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-7566-xxpp-c9gj.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "velero-plugin-for-aws",
+				"purl": "pkg:apk/wolfi/velero-plugin-for-aws"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.10.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-7566-xxpp-c9gj.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "velero-plugin-for-aws-compat",
+				"purl": "pkg:apk/chainguard/velero-plugin-for-aws-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.10.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-7566-xxpp-c9gj.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "velero-plugin-for-aws-compat",
+				"purl": "pkg:apk/wolfi/velero-plugin-for-aws-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.10.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-7566-xxpp-c9gj.json"
+			}
+		}
+	]
+}

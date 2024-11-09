@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-3hgh-xw5g-q968",
+	"modified": "2024-06-12T13:09:16Z",
+	"published": "2024-07-15T21:50:48.541931Z",
+	"related": [
+		"CGA-3hgh-xw5g-q968",
+		"CVE-2024-35255",
+		"GHSA-m5vv-6r4h-3vj9"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "gitlab-runner",
+				"purl": "pkg:apk/chainguard/gitlab-runner"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.0.0-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-3hgh-xw5g-q968.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "gitlab-runner",
+				"purl": "pkg:apk/wolfi/gitlab-runner"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.0.0-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-3hgh-xw5g-q968.json"
+			}
+		}
+	]
+}

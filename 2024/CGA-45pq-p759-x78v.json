@@ -1,0 +1,58 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-45pq-p759-x78v",
+	"modified": "2024-07-10T11:07:54Z",
+	"published": "2024-07-15T21:50:34.640420Z",
+	"related": [
+		"CGA-45pq-p759-x78v",
+		"GHSA-xr7q-jx4m-x55m"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "gitlab-elasticsearch-indexer",
+				"purl": "pkg:apk/chainguard/gitlab-elasticsearch-indexer"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.1.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-45pq-p759-x78v.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "gitlab-elasticsearch-indexer",
+				"purl": "pkg:apk/wolfi/gitlab-elasticsearch-indexer"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.1.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-45pq-p759-x78v.json"
+			}
+		}
+	]
+}

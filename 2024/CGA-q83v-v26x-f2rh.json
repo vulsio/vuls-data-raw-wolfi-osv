@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-q83v-v26x-f2rh",
+	"modified": "2024-06-26T10:08:59Z",
+	"published": "2024-07-15T22:04:58.569947Z",
+	"related": [
+		"CGA-q83v-v26x-f2rh",
+		"CVE-2024-5700",
+		"GHSA-pq6v-hjqm-frww"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "firefox",
+				"purl": "pkg:apk/chainguard/firefox"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "127.0.2-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-q83v-v26x-f2rh.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "firefox",
+				"purl": "pkg:apk/wolfi/firefox"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "127.0.2-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-q83v-v26x-f2rh.json"
+			}
+		}
+	]
+}

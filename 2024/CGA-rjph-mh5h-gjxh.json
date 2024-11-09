@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-rjph-mh5h-gjxh",
+	"modified": "2024-03-26T12:38:12Z",
+	"published": "2024-06-06T12:26:23.170746Z",
+	"related": [
+		"CGA-rjph-mh5h-gjxh",
+		"CVE-2023-42282",
+		"GHSA-78xj-cgh5-2h22"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "node-gyp",
+				"purl": "pkg:apk/chainguard/node-gyp"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "10.1.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-rjph-mh5h-gjxh.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "node-gyp",
+				"purl": "pkg:apk/wolfi/node-gyp"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "10.1.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-rjph-mh5h-gjxh.json"
+			}
+		}
+	]
+}

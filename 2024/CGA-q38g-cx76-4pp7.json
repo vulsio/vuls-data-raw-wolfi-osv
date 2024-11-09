@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-q38g-cx76-4pp7",
+	"modified": "2024-09-11T09:43:35Z",
+	"published": "2024-09-25T05:31:29.364125Z",
+	"related": [
+		"CGA-q38g-cx76-4pp7",
+		"CVE-2024-34156",
+		"GHSA-crqm-pwhx-j97f"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "chezmoi",
+				"purl": "pkg:apk/chainguard/chezmoi"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.52.2-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-q38g-cx76-4pp7.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "chezmoi",
+				"purl": "pkg:apk/wolfi/chezmoi"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.52.2-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-q38g-cx76-4pp7.json"
+			}
+		}
+	]
+}

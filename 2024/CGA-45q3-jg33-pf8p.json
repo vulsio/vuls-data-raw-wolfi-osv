@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-45q3-jg33-pf8p",
+	"modified": "2024-05-06T00:50:29Z",
+	"published": "2024-06-06T12:22:23.031739Z",
+	"related": [
+		"CGA-45q3-jg33-pf8p",
+		"CVE-2019-14993",
+		"GHSA-qcvw-82hh-gq38"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "istio-pilot-discovery-1.21",
+				"purl": "pkg:apk/chainguard/istio-pilot-discovery-1.21"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-45q3-jg33-pf8p.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "istio-pilot-discovery-1.21",
+				"purl": "pkg:apk/wolfi/istio-pilot-discovery-1.21"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-45q3-jg33-pf8p.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "istio-pilot-discovery-1.21-compat",
+				"purl": "pkg:apk/chainguard/istio-pilot-discovery-1.21-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-45q3-jg33-pf8p.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "istio-pilot-discovery-1.21-compat",
+				"purl": "pkg:apk/wolfi/istio-pilot-discovery-1.21-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-45q3-jg33-pf8p.json"
+			}
+		}
+	]
+}

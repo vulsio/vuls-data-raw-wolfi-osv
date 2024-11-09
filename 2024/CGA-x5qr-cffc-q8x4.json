@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-x5qr-cffc-q8x4",
+	"modified": "2024-09-12T17:19:00Z",
+	"published": "2024-09-12T18:23:36.025232Z",
+	"related": [
+		"CGA-x5qr-cffc-q8x4",
+		"CVE-2024-34158",
+		"GHSA-j7vj-rw65-4v26"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "victoriametrics-operator",
+				"purl": "pkg:apk/chainguard/victoriametrics-operator"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.47.3-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-x5qr-cffc-q8x4.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "victoriametrics-operator",
+				"purl": "pkg:apk/wolfi/victoriametrics-operator"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.47.3-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-x5qr-cffc-q8x4.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "victoriametrics-operator-compat",
+				"purl": "pkg:apk/chainguard/victoriametrics-operator-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.47.3-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-x5qr-cffc-q8x4.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "victoriametrics-operator-compat",
+				"purl": "pkg:apk/wolfi/victoriametrics-operator-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.47.3-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-x5qr-cffc-q8x4.json"
+			}
+		}
+	]
+}

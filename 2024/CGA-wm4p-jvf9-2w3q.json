@@ -1,0 +1,104 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-wm4p-jvf9-2w3q",
+	"modified": "2024-07-11T10:28:08Z",
+	"published": "2024-07-11T11:04:46.958445Z",
+	"related": [
+		"CGA-wm4p-jvf9-2w3q",
+		"GHSA-xr7q-jx4m-x55m"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "grpc-health-probe",
+				"purl": "pkg:apk/chainguard/grpc-health-probe"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.4.30-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-wm4p-jvf9-2w3q.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "grpc-health-probe",
+				"purl": "pkg:apk/wolfi/grpc-health-probe"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.4.30-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-wm4p-jvf9-2w3q.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "grpc-health-probe-compat",
+				"purl": "pkg:apk/chainguard/grpc-health-probe-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.4.30-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-wm4p-jvf9-2w3q.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "grpc-health-probe-compat",
+				"purl": "pkg:apk/wolfi/grpc-health-probe-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.4.30-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-wm4p-jvf9-2w3q.json"
+			}
+		}
+	]
+}

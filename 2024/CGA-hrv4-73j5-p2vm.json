@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-hrv4-73j5-p2vm",
+	"modified": "2024-05-14T11:12:46Z",
+	"published": "2024-06-06T12:27:53.041218Z",
+	"related": [
+		"CGA-hrv4-73j5-p2vm",
+		"CVE-2024-24788",
+		"GHSA-2jwv-jmq4-4j3r"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "wireguard-go",
+				"purl": "pkg:apk/chainguard/wireguard-go"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.0.20230223-r11"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-hrv4-73j5-p2vm.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "wireguard-go",
+				"purl": "pkg:apk/wolfi/wireguard-go"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.0.20230223-r11"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-hrv4-73j5-p2vm.json"
+			}
+		}
+	]
+}

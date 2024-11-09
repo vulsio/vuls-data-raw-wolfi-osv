@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-32f9-wgqr-fqg3",
+	"modified": "2024-03-12T09:20:48Z",
+	"published": "2024-06-06T12:17:16.990315Z",
+	"related": [
+		"CGA-32f9-wgqr-fqg3",
+		"CVE-2024-24784",
+		"GHSA-fgq5-q76c-gx78"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "wireguard-go",
+				"purl": "pkg:apk/chainguard/wireguard-go"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.0.20230223-r8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-32f9-wgqr-fqg3.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "wireguard-go",
+				"purl": "pkg:apk/wolfi/wireguard-go"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.0.20230223-r8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-32f9-wgqr-fqg3.json"
+			}
+		}
+	]
+}

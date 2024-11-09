@@ -1,0 +1,58 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-gqf7-9vw6-vqh5",
+	"modified": "2024-02-17T07:22:12Z",
+	"published": "2024-06-06T12:27:31.517371Z",
+	"related": [
+		"CGA-gqf7-9vw6-vqh5",
+		"GHSA-93gm-qmq6-w238"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "reflex",
+				"purl": "pkg:apk/chainguard/reflex"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.4.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-gqf7-9vw6-vqh5.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "reflex",
+				"purl": "pkg:apk/wolfi/reflex"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.4.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-gqf7-9vw6-vqh5.json"
+			}
+		}
+	]
+}

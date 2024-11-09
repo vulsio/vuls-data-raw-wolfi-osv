@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-fj5g-7f2q-f8xr",
+	"modified": "2024-11-05T09:21:21Z",
+	"published": "2024-11-05T10:06:19.550576Z",
+	"related": [
+		"CGA-fj5g-7f2q-f8xr",
+		"CVE-2024-51744",
+		"GHSA-29wx-vh33-7x7r"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "atlantis",
+				"purl": "pkg:apk/chainguard/atlantis"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.30.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fj5g-7f2q-f8xr.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "atlantis",
+				"purl": "pkg:apk/wolfi/atlantis"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.30.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fj5g-7f2q-f8xr.json"
+			}
+		}
+	]
+}

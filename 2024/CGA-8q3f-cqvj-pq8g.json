@@ -1,0 +1,58 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-8q3f-cqvj-pq8g",
+	"modified": "2023-12-22T18:51:16Z",
+	"published": "2024-06-06T12:25:16.434031Z",
+	"related": [
+		"CGA-8q3f-cqvj-pq8g",
+		"GHSA-7ww5-4wqc-m92c"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "eksctl",
+				"purl": "pkg:apk/chainguard/eksctl"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.167.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-8q3f-cqvj-pq8g.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "eksctl",
+				"purl": "pkg:apk/wolfi/eksctl"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.167.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-8q3f-cqvj-pq8g.json"
+			}
+		}
+	]
+}

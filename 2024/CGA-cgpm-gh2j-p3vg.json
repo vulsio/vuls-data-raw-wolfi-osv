@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-cgpm-gh2j-p3vg",
+	"modified": "2024-06-07T09:24:41Z",
+	"published": "2024-06-07T10:05:59.608031Z",
+	"related": [
+		"CGA-cgpm-gh2j-p3vg",
+		"CVE-2024-24789",
+		"GHSA-236w-p7wf-5ph8"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "istio-pilot-agent-1.22",
+				"purl": "pkg:apk/chainguard/istio-pilot-agent-1.22"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.22.0-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-cgpm-gh2j-p3vg.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "istio-pilot-agent-1.22",
+				"purl": "pkg:apk/wolfi/istio-pilot-agent-1.22"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.22.0-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-cgpm-gh2j-p3vg.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "istio-pilot-agent-1.22-compat",
+				"purl": "pkg:apk/chainguard/istio-pilot-agent-1.22-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.22.0-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-cgpm-gh2j-p3vg.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "istio-pilot-agent-1.22-compat",
+				"purl": "pkg:apk/wolfi/istio-pilot-agent-1.22-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.22.0-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-cgpm-gh2j-p3vg.json"
+			}
+		}
+	]
+}

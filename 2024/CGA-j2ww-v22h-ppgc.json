@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-j2ww-v22h-ppgc",
+	"modified": "2024-05-14T10:24:15Z",
+	"published": "2024-06-06T12:27:59.617225Z",
+	"related": [
+		"CGA-j2ww-v22h-ppgc",
+		"CVE-2024-24787",
+		"GHSA-5fq7-4mxc-535h"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "gops",
+				"purl": "pkg:apk/chainguard/gops"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.3.28-r10"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-j2ww-v22h-ppgc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "gops",
+				"purl": "pkg:apk/wolfi/gops"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.3.28-r10"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-j2ww-v22h-ppgc.json"
+			}
+		}
+	]
+}

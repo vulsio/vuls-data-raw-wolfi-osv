@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-wcmx-f22m-j9j4",
+	"modified": "2024-09-19T02:25:34Z",
+	"published": "2024-09-19T04:12:07.662062Z",
+	"related": [
+		"CGA-wcmx-f22m-j9j4",
+		"CVE-2024-34155",
+		"GHSA-8xfx-rj4p-23jm"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "yam",
+				"purl": "pkg:apk/chainguard/yam"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.1.1-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-wcmx-f22m-j9j4.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "yam",
+				"purl": "pkg:apk/wolfi/yam"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.1.1-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-wcmx-f22m-j9j4.json"
+			}
+		}
+	]
+}

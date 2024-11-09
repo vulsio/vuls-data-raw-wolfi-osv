@@ -1,0 +1,108 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-r3f2-xq4j-79w7",
+	"modified": "2024-10-22T05:29:10.013727Z",
+	"published": "2024-06-06T12:26:20.806149Z",
+	"aliases": [
+		"BIT-golang-2024-24783",
+		"CGA-f95r-g332-q2hr",
+		"CGA-pp69-rc8m-x7cv",
+		"CVE-2024-24783",
+		"GHSA-3q2c-pvp5-3cqp",
+		"GO-2024-2598"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cluster-autoscaler-1.28",
+				"purl": "pkg:apk/chainguard/cluster-autoscaler-1.28"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.28.2-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-r3f2-xq4j-79w7.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "cluster-autoscaler-1.28",
+				"purl": "pkg:apk/wolfi/cluster-autoscaler-1.28"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.28.2-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-r3f2-xq4j-79w7.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cluster-autoscaler-1.28-compat",
+				"purl": "pkg:apk/chainguard/cluster-autoscaler-1.28-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.28.2-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-r3f2-xq4j-79w7.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "cluster-autoscaler-1.28-compat",
+				"purl": "pkg:apk/wolfi/cluster-autoscaler-1.28-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.28.2-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-r3f2-xq4j-79w7.json"
+			}
+		}
+	]
+}

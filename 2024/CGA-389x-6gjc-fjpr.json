@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-389x-6gjc-fjpr",
+	"modified": "2023-11-07T19:29:40Z",
+	"published": "2024-06-06T12:21:49.683005Z",
+	"related": [
+		"CGA-389x-6gjc-fjpr",
+		"CVE-2023-45283",
+		"GHSA-vvjp-q62m-2vph"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "istio-cni-1.19",
+				"purl": "pkg:apk/chainguard/istio-cni-1.19"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-389x-6gjc-fjpr.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "istio-cni-1.19",
+				"purl": "pkg:apk/wolfi/istio-cni-1.19"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-389x-6gjc-fjpr.json"
+			}
+		}
+	]
+}

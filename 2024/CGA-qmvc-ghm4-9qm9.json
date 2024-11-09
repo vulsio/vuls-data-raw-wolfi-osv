@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-qmvc-ghm4-9qm9",
+	"modified": "2024-09-12T20:29:26Z",
+	"published": "2024-09-25T05:32:29.771622Z",
+	"related": [
+		"CGA-qmvc-ghm4-9qm9",
+		"CVE-2024-34158",
+		"GHSA-j7vj-rw65-4v26"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "nri-rabbitmq",
+				"purl": "pkg:apk/chainguard/nri-rabbitmq"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.13.8-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-qmvc-ghm4-9qm9.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "nri-rabbitmq",
+				"purl": "pkg:apk/wolfi/nri-rabbitmq"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.13.8-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-qmvc-ghm4-9qm9.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "nri-rabbitmq-compat",
+				"purl": "pkg:apk/chainguard/nri-rabbitmq-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.13.8-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-qmvc-ghm4-9qm9.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "nri-rabbitmq-compat",
+				"purl": "pkg:apk/wolfi/nri-rabbitmq-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.13.8-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-qmvc-ghm4-9qm9.json"
+			}
+		}
+	]
+}

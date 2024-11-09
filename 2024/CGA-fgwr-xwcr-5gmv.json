@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-fgwr-xwcr-5gmv",
+	"modified": "2024-03-31T01:32:09Z",
+	"published": "2024-06-06T12:25:54.358250Z",
+	"related": [
+		"CGA-fgwr-xwcr-5gmv",
+		"CVE-2024-24786",
+		"GHSA-8r3f-844c-mc37"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kyverno-policy-reporter",
+				"purl": "pkg:apk/chainguard/kyverno-policy-reporter"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.18.1-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fgwr-xwcr-5gmv.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "kyverno-policy-reporter",
+				"purl": "pkg:apk/wolfi/kyverno-policy-reporter"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.18.1-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fgwr-xwcr-5gmv.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kyverno-policy-reporter-compat",
+				"purl": "pkg:apk/chainguard/kyverno-policy-reporter-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.18.1-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fgwr-xwcr-5gmv.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "kyverno-policy-reporter-compat",
+				"purl": "pkg:apk/wolfi/kyverno-policy-reporter-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.18.1-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fgwr-xwcr-5gmv.json"
+			}
+		}
+	]
+}

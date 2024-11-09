@@ -1,0 +1,104 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-cj87-mmpg-46c2",
+	"modified": "2024-06-18T09:15:22Z",
+	"published": "2024-06-19T07:34:47.398876Z",
+	"related": [
+		"CGA-cj87-mmpg-46c2",
+		"GHSA-w235-7p84-xx57"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "dask-gateway",
+				"purl": "pkg:apk/chainguard/dask-gateway"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2024.1.0-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-cj87-mmpg-46c2.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "dask-gateway",
+				"purl": "pkg:apk/wolfi/dask-gateway"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2024.1.0-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-cj87-mmpg-46c2.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "dask-gateway-server",
+				"purl": "pkg:apk/chainguard/dask-gateway-server"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2024.1.0-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-cj87-mmpg-46c2.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "dask-gateway-server",
+				"purl": "pkg:apk/wolfi/dask-gateway-server"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2024.1.0-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-cj87-mmpg-46c2.json"
+			}
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-hxq6-3v7v-w42v",
+	"modified": "2024-03-13T11:11:51Z",
+	"published": "2024-06-06T12:26:04.410324Z",
+	"related": [
+		"CGA-hxq6-3v7v-w42v",
+		"CVE-2023-45290",
+		"GHSA-rr6r-cfgf-gc6h"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "vexctl",
+				"purl": "pkg:apk/chainguard/vexctl"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.2.6-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-hxq6-3v7v-w42v.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "vexctl",
+				"purl": "pkg:apk/wolfi/vexctl"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.2.6-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-hxq6-3v7v-w42v.json"
+			}
+		}
+	]
+}

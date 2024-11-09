@@ -1,0 +1,58 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-m2ph-q6mp-wv77",
+	"modified": "2024-01-24T17:51:40Z",
+	"published": "2024-06-06T12:28:21.768878Z",
+	"related": [
+		"CGA-m2ph-q6mp-wv77",
+		"GHSA-9763-4f94-gfch"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "rclone",
+				"purl": "pkg:apk/chainguard/rclone"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.65.2-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-m2ph-q6mp-wv77.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "rclone",
+				"purl": "pkg:apk/wolfi/rclone"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.65.2-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-m2ph-q6mp-wv77.json"
+			}
+		}
+	]
+}

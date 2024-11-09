@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-8hc6-9xcp-xx9j",
+	"modified": "2024-09-10T12:02:29Z",
+	"published": "2024-09-25T05:17:27.044910Z",
+	"related": [
+		"CGA-8hc6-9xcp-xx9j",
+		"CVE-2024-34156",
+		"GHSA-crqm-pwhx-j97f"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "weaviate",
+				"purl": "pkg:apk/chainguard/weaviate"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.26.4-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-8hc6-9xcp-xx9j.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "weaviate",
+				"purl": "pkg:apk/wolfi/weaviate"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.26.4-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-8hc6-9xcp-xx9j.json"
+			}
+		}
+	]
+}

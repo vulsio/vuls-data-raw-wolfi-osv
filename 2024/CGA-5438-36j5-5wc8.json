@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-5438-36j5-5wc8",
+	"modified": "2024-03-12T09:18:23Z",
+	"published": "2024-06-06T12:23:55.104288Z",
+	"related": [
+		"CGA-5438-36j5-5wc8",
+		"CVE-2023-45289",
+		"GHSA-32ch-6x54-q4h9"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "nri-prometheus",
+				"purl": "pkg:apk/chainguard/nri-prometheus"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.21.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-5438-36j5-5wc8.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "nri-prometheus",
+				"purl": "pkg:apk/wolfi/nri-prometheus"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.21.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-5438-36j5-5wc8.json"
+			}
+		}
+	]
+}

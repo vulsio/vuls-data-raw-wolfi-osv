@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-mvfr-2q7x-4qfj",
+	"modified": "2023-11-11T16:47:30Z",
+	"published": "2024-06-06T12:28:35.341066Z",
+	"related": [
+		"CGA-mvfr-2q7x-4qfj",
+		"CVE-2023-45803",
+		"GHSA-g4mx-q9vg-27p4"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kubeflow-jupyter-web-app",
+				"purl": "pkg:apk/chainguard/kubeflow-jupyter-web-app"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.8.0-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mvfr-2q7x-4qfj.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "kubeflow-jupyter-web-app",
+				"purl": "pkg:apk/wolfi/kubeflow-jupyter-web-app"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.8.0-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mvfr-2q7x-4qfj.json"
+			}
+		}
+	]
+}

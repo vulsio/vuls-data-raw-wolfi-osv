@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-54vf-6v2r-x22m",
+	"modified": "2024-03-13T11:16:21Z",
+	"published": "2024-06-06T12:22:46.348199Z",
+	"related": [
+		"CGA-54vf-6v2r-x22m",
+		"CVE-2024-24783",
+		"GHSA-3q2c-pvp5-3cqp"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kubewatch",
+				"purl": "pkg:apk/chainguard/kubewatch"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.5.0-r10"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-54vf-6v2r-x22m.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "kubewatch",
+				"purl": "pkg:apk/wolfi/kubewatch"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.5.0-r10"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-54vf-6v2r-x22m.json"
+			}
+		}
+	]
+}

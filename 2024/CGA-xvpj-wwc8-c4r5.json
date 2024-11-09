@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-xvpj-wwc8-c4r5",
+	"modified": "2024-03-06T21:42:20Z",
+	"published": "2024-06-06T12:30:04.455209Z",
+	"related": [
+		"CGA-xvpj-wwc8-c4r5",
+		"CVE-2024-27304",
+		"GHSA-mrww-27vc-gghv"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "vault-1.13",
+				"purl": "pkg:apk/chainguard/vault-1.13"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.13.13-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-xvpj-wwc8-c4r5.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "vault-1.13",
+				"purl": "pkg:apk/wolfi/vault-1.13"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.13.13-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-xvpj-wwc8-c4r5.json"
+			}
+		}
+	]
+}

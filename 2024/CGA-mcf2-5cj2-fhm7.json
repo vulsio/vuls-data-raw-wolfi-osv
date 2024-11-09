@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-mcf2-5cj2-fhm7",
+	"modified": "2024-10-02T12:22:02Z",
+	"published": "2024-10-02T13:21:52.536585Z",
+	"related": [
+		"CGA-mcf2-5cj2-fhm7",
+		"CVE-2024-9341",
+		"GHSA-mc76-5925-c5p6"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "skopeo",
+				"purl": "pkg:apk/chainguard/skopeo"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.16.1-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mcf2-5cj2-fhm7.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "skopeo",
+				"purl": "pkg:apk/wolfi/skopeo"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.16.1-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mcf2-5cj2-fhm7.json"
+			}
+		}
+	]
+}

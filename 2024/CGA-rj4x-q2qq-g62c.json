@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-rj4x-q2qq-g62c",
+	"modified": "2024-03-12T07:14:21Z",
+	"published": "2024-06-06T12:29:20.760119Z",
+	"related": [
+		"CGA-rj4x-q2qq-g62c",
+		"CVE-2023-45289",
+		"GHSA-32ch-6x54-q4h9"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "configmap-reload",
+				"purl": "pkg:apk/chainguard/configmap-reload"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.12.0-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-rj4x-q2qq-g62c.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "configmap-reload",
+				"purl": "pkg:apk/wolfi/configmap-reload"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.12.0-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-rj4x-q2qq-g62c.json"
+			}
+		}
+	]
+}

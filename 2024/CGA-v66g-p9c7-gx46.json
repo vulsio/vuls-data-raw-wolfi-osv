@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-v66g-p9c7-gx46",
+	"modified": "2024-05-14T10:37:08Z",
+	"published": "2024-06-06T12:29:29.818636Z",
+	"related": [
+		"CGA-v66g-p9c7-gx46",
+		"CVE-2024-24787",
+		"GHSA-5fq7-4mxc-535h"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "docker-credential-gcr",
+				"purl": "pkg:apk/chainguard/docker-credential-gcr"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.1.22-r5"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-v66g-p9c7-gx46.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "docker-credential-gcr",
+				"purl": "pkg:apk/wolfi/docker-credential-gcr"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.1.22-r5"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-v66g-p9c7-gx46.json"
+			}
+		}
+	]
+}

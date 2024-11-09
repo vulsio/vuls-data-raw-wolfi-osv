@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-4chv-5p78-v8f9",
+	"modified": "2024-09-13T04:09:41Z",
+	"published": "2024-09-25T05:13:58.994499Z",
+	"related": [
+		"CGA-4chv-5p78-v8f9",
+		"CVE-2024-34155",
+		"GHSA-8xfx-rj4p-23jm"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "nfs-subdir-external-provisioner",
+				"purl": "pkg:apk/chainguard/nfs-subdir-external-provisioner"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "4.0.18-r10"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-4chv-5p78-v8f9.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "nfs-subdir-external-provisioner",
+				"purl": "pkg:apk/wolfi/nfs-subdir-external-provisioner"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "4.0.18-r10"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-4chv-5p78-v8f9.json"
+			}
+		}
+	]
+}

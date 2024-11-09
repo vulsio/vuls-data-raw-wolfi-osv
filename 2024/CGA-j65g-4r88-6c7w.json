@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-j65g-4r88-6c7w",
+	"modified": "2024-07-21T06:01:03Z",
+	"published": "2024-09-25T05:26:46.813380Z",
+	"related": [
+		"CGA-j65g-4r88-6c7w",
+		"CVE-2024-5321",
+		"GHSA-82m2-cv7p-4m75"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "ip-masq-agent",
+				"purl": "pkg:apk/chainguard/ip-masq-agent"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.9.3-r14"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-j65g-4r88-6c7w.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "ip-masq-agent",
+				"purl": "pkg:apk/wolfi/ip-masq-agent"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.9.3-r14"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-j65g-4r88-6c7w.json"
+			}
+		}
+	]
+}

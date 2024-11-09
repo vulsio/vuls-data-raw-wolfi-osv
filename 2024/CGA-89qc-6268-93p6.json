@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-89qc-6268-93p6",
+	"modified": "2024-06-07T15:36:58Z",
+	"published": "2024-07-15T21:54:44.509856Z",
+	"related": [
+		"CGA-89qc-6268-93p6",
+		"CVE-2024-24789",
+		"GHSA-236w-p7wf-5ph8"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "s5cmd",
+				"purl": "pkg:apk/chainguard/s5cmd"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.2.2-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-89qc-6268-93p6.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "s5cmd",
+				"purl": "pkg:apk/wolfi/s5cmd"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.2.2-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-89qc-6268-93p6.json"
+			}
+		}
+	]
+}

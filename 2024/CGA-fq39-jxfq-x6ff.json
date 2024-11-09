@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-fq39-jxfq-x6ff",
+	"modified": "2024-07-04T11:21:08Z",
+	"published": "2024-07-15T21:57:32.061882Z",
+	"related": [
+		"CGA-fq39-jxfq-x6ff",
+		"CVE-2024-24791",
+		"GHSA-hw49-2p59-3mhj"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "k8ssandra-operator",
+				"purl": "pkg:apk/chainguard/k8ssandra-operator"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.17.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fq39-jxfq-x6ff.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "k8ssandra-operator",
+				"purl": "pkg:apk/wolfi/k8ssandra-operator"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.17.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fq39-jxfq-x6ff.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "k8ssandra-operator-compat",
+				"purl": "pkg:apk/chainguard/k8ssandra-operator-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.17.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fq39-jxfq-x6ff.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "k8ssandra-operator-compat",
+				"purl": "pkg:apk/wolfi/k8ssandra-operator-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.17.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fq39-jxfq-x6ff.json"
+			}
+		}
+	]
+}

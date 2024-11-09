@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-825w-27xf-fmwv",
+	"modified": "2024-05-14T07:36:06Z",
+	"published": "2024-06-06T12:25:06.129140Z",
+	"related": [
+		"CGA-825w-27xf-fmwv",
+		"CVE-2024-24788",
+		"GHSA-2jwv-jmq4-4j3r"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "oauth2-proxy",
+				"purl": "pkg:apk/chainguard/oauth2-proxy"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "7.6.0-r7"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-825w-27xf-fmwv.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "oauth2-proxy",
+				"purl": "pkg:apk/wolfi/oauth2-proxy"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "7.6.0-r7"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-825w-27xf-fmwv.json"
+			}
+		}
+	]
+}

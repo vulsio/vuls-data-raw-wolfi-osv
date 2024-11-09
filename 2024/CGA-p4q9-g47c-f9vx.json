@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-p4q9-g47c-f9vx",
+	"modified": "2024-03-15T15:52:38Z",
+	"published": "2024-06-06T12:28:38.593012Z",
+	"related": [
+		"CGA-p4q9-g47c-f9vx",
+		"CVE-2024-24786",
+		"GHSA-8r3f-844c-mc37"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "envoy-ratelimit",
+				"purl": "pkg:apk/chainguard/envoy-ratelimit"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.0_git20240220-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-p4q9-g47c-f9vx.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "envoy-ratelimit",
+				"purl": "pkg:apk/wolfi/envoy-ratelimit"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.0_git20240220-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-p4q9-g47c-f9vx.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "envoy-ratelimit-compat",
+				"purl": "pkg:apk/chainguard/envoy-ratelimit-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.0_git20240220-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-p4q9-g47c-f9vx.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "envoy-ratelimit-compat",
+				"purl": "pkg:apk/wolfi/envoy-ratelimit-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.0_git20240220-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-p4q9-g47c-f9vx.json"
+			}
+		}
+	]
+}

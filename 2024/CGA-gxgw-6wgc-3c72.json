@@ -1,0 +1,106 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-gxgw-6wgc-3c72",
+	"modified": "2023-11-03T13:05:37Z",
+	"published": "2024-06-06T12:27:34.551600Z",
+	"related": [
+		"CGA-gxgw-6wgc-3c72",
+		"CVE-2023-44487",
+		"GHSA-m425-mq94-257g",
+		"GHSA-qppj-fm5r-hxr3"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kots",
+				"purl": "pkg:apk/chainguard/kots"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.103.3-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-gxgw-6wgc-3c72.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "kots",
+				"purl": "pkg:apk/wolfi/kots"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.103.3-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-gxgw-6wgc-3c72.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kots-symlink-compat",
+				"purl": "pkg:apk/chainguard/kots-symlink-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.103.3-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-gxgw-6wgc-3c72.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "kots-symlink-compat",
+				"purl": "pkg:apk/wolfi/kots-symlink-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.103.3-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-gxgw-6wgc-3c72.json"
+			}
+		}
+	]
+}

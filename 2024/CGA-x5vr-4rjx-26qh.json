@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-x5vr-4rjx-26qh",
+	"modified": "2024-11-05T15:15:32Z",
+	"published": "2024-11-05T16:06:27.373328Z",
+	"related": [
+		"CGA-x5vr-4rjx-26qh",
+		"CVE-2024-51744",
+		"GHSA-29wx-vh33-7x7r"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "secrets-store-csi-driver-provider-azure",
+				"purl": "pkg:apk/chainguard/secrets-store-csi-driver-provider-azure"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.6.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-x5vr-4rjx-26qh.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "secrets-store-csi-driver-provider-azure",
+				"purl": "pkg:apk/wolfi/secrets-store-csi-driver-provider-azure"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.6.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-x5vr-4rjx-26qh.json"
+			}
+		}
+	]
+}

@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-mc9r-gxf4-3wq9",
+	"modified": "2024-03-13T07:07:42Z",
+	"published": "2024-06-06T12:28:28.096454Z",
+	"related": [
+		"CGA-mc9r-gxf4-3wq9",
+		"CVE-2024-24783",
+		"GHSA-3q2c-pvp5-3cqp"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cloud-sql-proxy",
+				"purl": "pkg:apk/chainguard/cloud-sql-proxy"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.9.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mc9r-gxf4-3wq9.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "cloud-sql-proxy",
+				"purl": "pkg:apk/wolfi/cloud-sql-proxy"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.9.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mc9r-gxf4-3wq9.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cloud-sql-proxy-compat",
+				"purl": "pkg:apk/chainguard/cloud-sql-proxy-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.9.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mc9r-gxf4-3wq9.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "cloud-sql-proxy-compat",
+				"purl": "pkg:apk/wolfi/cloud-sql-proxy-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.9.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mc9r-gxf4-3wq9.json"
+			}
+		}
+	]
+}

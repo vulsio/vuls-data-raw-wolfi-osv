@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-7j6c-8q8v-5vwx",
+	"modified": "2024-06-07T07:26:16Z",
+	"published": "2024-06-07T08:04:55.794404Z",
+	"related": [
+		"CGA-7j6c-8q8v-5vwx",
+		"CVE-2024-24789",
+		"GHSA-236w-p7wf-5ph8"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "aws-ebs-csi-driver",
+				"purl": "pkg:apk/chainguard/aws-ebs-csi-driver"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.31.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-7j6c-8q8v-5vwx.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "aws-ebs-csi-driver",
+				"purl": "pkg:apk/wolfi/aws-ebs-csi-driver"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.31.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-7j6c-8q8v-5vwx.json"
+			}
+		}
+	]
+}

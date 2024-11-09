@@ -1,0 +1,151 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-r38c-vgv7-wf8j",
+	"modified": "2024-06-07T07:34:03Z",
+	"published": "2024-06-07T08:08:23.598785Z",
+	"related": [
+		"CGA-r38c-vgv7-wf8j",
+		"CVE-2024-24790",
+		"GHSA-49gw-vxvf-fc2g"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "neuvector-scanner",
+				"purl": "pkg:apk/chainguard/neuvector-scanner"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0_git20240528-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-r38c-vgv7-wf8j.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "neuvector-scanner",
+				"purl": "pkg:apk/wolfi/neuvector-scanner"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0_git20240528-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-r38c-vgv7-wf8j.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "neuvector-scanner-monitor",
+				"purl": "pkg:apk/chainguard/neuvector-scanner-monitor"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0_git20240528-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-r38c-vgv7-wf8j.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "neuvector-scanner-monitor",
+				"purl": "pkg:apk/wolfi/neuvector-scanner-monitor"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0_git20240528-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-r38c-vgv7-wf8j.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "neuvector-scanner-task",
+				"purl": "pkg:apk/chainguard/neuvector-scanner-task"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0_git20240528-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-r38c-vgv7-wf8j.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "neuvector-scanner-task",
+				"purl": "pkg:apk/wolfi/neuvector-scanner-task"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0_git20240528-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-r38c-vgv7-wf8j.json"
+			}
+		}
+	]
+}

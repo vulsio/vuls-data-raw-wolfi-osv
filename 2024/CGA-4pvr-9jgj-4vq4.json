@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-4pvr-9jgj-4vq4",
+	"modified": "2024-08-23T09:22:47Z",
+	"published": "2024-08-23T10:04:52.585529Z",
+	"related": [
+		"CGA-4pvr-9jgj-4vq4",
+		"CVE-2024-42367",
+		"GHSA-jwhx-xcg6-8xhj"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "dask-gateway",
+				"purl": "pkg:apk/chainguard/dask-gateway"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2024.1.0-r9"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-4pvr-9jgj-4vq4.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "dask-gateway",
+				"purl": "pkg:apk/wolfi/dask-gateway"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2024.1.0-r9"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-4pvr-9jgj-4vq4.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "dask-gateway-server",
+				"purl": "pkg:apk/chainguard/dask-gateway-server"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2024.1.0-r9"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-4pvr-9jgj-4vq4.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "dask-gateway-server",
+				"purl": "pkg:apk/wolfi/dask-gateway-server"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2024.1.0-r9"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-4pvr-9jgj-4vq4.json"
+			}
+		}
+	]
+}

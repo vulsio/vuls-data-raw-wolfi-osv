@@ -1,0 +1,104 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-4fgg-w6c6-p3p9",
+	"modified": "2023-10-31T20:03:44Z",
+	"published": "2024-06-06T12:22:33.052806Z",
+	"related": [
+		"CGA-4fgg-w6c6-p3p9",
+		"GHSA-jq35-85cj-fj4p"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "flux",
+				"purl": "pkg:apk/chainguard/flux"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-4fgg-w6c6-p3p9.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "flux",
+				"purl": "pkg:apk/wolfi/flux"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-4fgg-w6c6-p3p9.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "flux-compat",
+				"purl": "pkg:apk/chainguard/flux-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-4fgg-w6c6-p3p9.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "flux-compat",
+				"purl": "pkg:apk/wolfi/flux-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-4fgg-w6c6-p3p9.json"
+			}
+		}
+	]
+}

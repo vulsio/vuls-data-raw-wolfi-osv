@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-929r-p9c9-q7pp",
+	"modified": "2024-11-06T10:37:12Z",
+	"published": "2024-11-06T11:21:19.529559Z",
+	"related": [
+		"CGA-929r-p9c9-q7pp",
+		"CVE-2024-51756",
+		"GHSA-hxf5-99xg-86hw"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "zed",
+				"purl": "pkg:apk/chainguard/zed"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.159.10-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-929r-p9c9-q7pp.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "zed",
+				"purl": "pkg:apk/wolfi/zed"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.159.10-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-929r-p9c9-q7pp.json"
+			}
+		}
+	]
+}

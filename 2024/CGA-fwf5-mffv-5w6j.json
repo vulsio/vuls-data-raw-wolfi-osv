@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-fwf5-mffv-5w6j",
+	"modified": "2024-05-14T10:01:27Z",
+	"published": "2024-06-06T12:27:17.022212Z",
+	"related": [
+		"CGA-fwf5-mffv-5w6j",
+		"CVE-2024-24788",
+		"GHSA-2jwv-jmq4-4j3r"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kubernetes-dashboard",
+				"purl": "pkg:apk/chainguard/kubernetes-dashboard"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.7.0-r18"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fwf5-mffv-5w6j.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "kubernetes-dashboard",
+				"purl": "pkg:apk/wolfi/kubernetes-dashboard"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.7.0-r18"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fwf5-mffv-5w6j.json"
+			}
+		}
+	]
+}

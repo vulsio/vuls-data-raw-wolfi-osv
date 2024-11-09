@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-9h82-v352-q8f4",
+	"modified": "2024-06-07T11:22:23Z",
+	"published": "2024-07-15T21:54:45.275748Z",
+	"related": [
+		"CGA-9h82-v352-q8f4",
+		"CVE-2024-24789",
+		"GHSA-236w-p7wf-5ph8"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "dockerize",
+				"purl": "pkg:apk/chainguard/dockerize"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.7.0-r9"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-9h82-v352-q8f4.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "dockerize",
+				"purl": "pkg:apk/wolfi/dockerize"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.7.0-r9"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-9h82-v352-q8f4.json"
+			}
+		}
+	]
+}

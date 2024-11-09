@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-2m6x-2mhp-g6q4",
+	"modified": "2024-03-12T07:14:29Z",
+	"published": "2024-06-06T12:21:05.528619Z",
+	"related": [
+		"CGA-2m6x-2mhp-g6q4",
+		"CVE-2024-24785",
+		"GHSA-j6m3-gc37-6r6q"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "docker-credential-gcr",
+				"purl": "pkg:apk/chainguard/docker-credential-gcr"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.1.22-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-2m6x-2mhp-g6q4.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "docker-credential-gcr",
+				"purl": "pkg:apk/wolfi/docker-credential-gcr"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.1.22-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-2m6x-2mhp-g6q4.json"
+			}
+		}
+	]
+}

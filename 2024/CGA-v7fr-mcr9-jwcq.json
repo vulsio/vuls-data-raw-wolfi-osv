@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-v7fr-mcr9-jwcq",
+	"modified": "2024-07-02T09:00:31Z",
+	"published": "2024-07-15T22:07:31.403852Z",
+	"related": [
+		"CGA-v7fr-mcr9-jwcq",
+		"CVE-2024-37298",
+		"GHSA-3669-72x9-r9p3"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "harbor-scanner-trivy",
+				"purl": "pkg:apk/chainguard/harbor-scanner-trivy"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.31.3-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-v7fr-mcr9-jwcq.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "harbor-scanner-trivy",
+				"purl": "pkg:apk/wolfi/harbor-scanner-trivy"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.31.3-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-v7fr-mcr9-jwcq.json"
+			}
+		}
+	]
+}

@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-564p-g7rj-gx2x",
+	"modified": "2024-03-12T07:15:28Z",
+	"published": "2024-06-06T12:23:58.593685Z",
+	"related": [
+		"CGA-564p-g7rj-gx2x",
+		"CVE-2023-45290",
+		"GHSA-rr6r-cfgf-gc6h"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "flannel-cni-plugin",
+				"purl": "pkg:apk/chainguard/flannel-cni-plugin"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.4.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-564p-g7rj-gx2x.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "flannel-cni-plugin",
+				"purl": "pkg:apk/wolfi/flannel-cni-plugin"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.4.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-564p-g7rj-gx2x.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "flannel-cni-plugin-compat",
+				"purl": "pkg:apk/chainguard/flannel-cni-plugin-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.4.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-564p-g7rj-gx2x.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "flannel-cni-plugin-compat",
+				"purl": "pkg:apk/wolfi/flannel-cni-plugin-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.4.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-564p-g7rj-gx2x.json"
+			}
+		}
+	]
+}

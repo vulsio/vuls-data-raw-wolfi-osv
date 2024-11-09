@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-px84-j2wc-mp79",
+	"modified": "2023-11-07T19:27:48Z",
+	"published": "2024-06-06T12:28:53.526740Z",
+	"related": [
+		"CGA-px84-j2wc-mp79",
+		"CVE-2023-45283",
+		"GHSA-vvjp-q62m-2vph"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "gitlab-pages",
+				"purl": "pkg:apk/chainguard/gitlab-pages"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-px84-j2wc-mp79.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "gitlab-pages",
+				"purl": "pkg:apk/wolfi/gitlab-pages"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-px84-j2wc-mp79.json"
+			}
+		}
+	]
+}

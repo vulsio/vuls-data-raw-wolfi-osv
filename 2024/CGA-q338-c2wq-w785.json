@@ -1,0 +1,58 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-q338-c2wq-w785",
+	"modified": "2023-11-16T14:21:46Z",
+	"published": "2024-06-06T12:28:55.265386Z",
+	"related": [
+		"CGA-q338-c2wq-w785",
+		"GHSA-jq35-85cj-fj4p"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cert-manager-1.13",
+				"purl": "pkg:apk/chainguard/cert-manager-1.13"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.13.2-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-q338-c2wq-w785.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "cert-manager-1.13",
+				"purl": "pkg:apk/wolfi/cert-manager-1.13"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.13.2-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-q338-c2wq-w785.json"
+			}
+		}
+	]
+}

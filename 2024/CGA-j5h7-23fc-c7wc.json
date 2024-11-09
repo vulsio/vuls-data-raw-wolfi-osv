@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-j5h7-23fc-c7wc",
+	"modified": "2024-05-14T12:03:34Z",
+	"published": "2024-06-06T12:28:02.181731Z",
+	"related": [
+		"CGA-j5h7-23fc-c7wc",
+		"CVE-2024-24788",
+		"GHSA-2jwv-jmq4-4j3r"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "rootlesskit",
+				"purl": "pkg:apk/chainguard/rootlesskit"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.1.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-j5h7-23fc-c7wc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "rootlesskit",
+				"purl": "pkg:apk/wolfi/rootlesskit"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.1.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-j5h7-23fc-c7wc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "rootlesskit-config-nonroot",
+				"purl": "pkg:apk/chainguard/rootlesskit-config-nonroot"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.1.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-j5h7-23fc-c7wc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "rootlesskit-config-nonroot",
+				"purl": "pkg:apk/wolfi/rootlesskit-config-nonroot"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.1.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-j5h7-23fc-c7wc.json"
+			}
+		}
+	]
+}

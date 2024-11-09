@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-h363-2hvx-9cj5",
+	"modified": "2024-04-09T02:01:05Z",
+	"published": "2024-06-06T12:27:35.941859Z",
+	"related": [
+		"CGA-h363-2hvx-9cj5",
+		"CVE-2023-45288",
+		"GHSA-4v7x-pqxf-cx7m"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "istio-pilot-discovery-1.21",
+				"purl": "pkg:apk/chainguard/istio-pilot-discovery-1.21"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.21.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-h363-2hvx-9cj5.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "istio-pilot-discovery-1.21",
+				"purl": "pkg:apk/wolfi/istio-pilot-discovery-1.21"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.21.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-h363-2hvx-9cj5.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "istio-pilot-discovery-1.21-compat",
+				"purl": "pkg:apk/chainguard/istio-pilot-discovery-1.21-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.21.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-h363-2hvx-9cj5.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "istio-pilot-discovery-1.21-compat",
+				"purl": "pkg:apk/wolfi/istio-pilot-discovery-1.21-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.21.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-h363-2hvx-9cj5.json"
+			}
+		}
+	]
+}

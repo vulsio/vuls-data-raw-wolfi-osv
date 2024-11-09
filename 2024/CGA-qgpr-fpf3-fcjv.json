@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-qgpr-fpf3-fcjv",
+	"modified": "2024-05-22T11:00:29Z",
+	"published": "2024-06-06T12:29:04.264606Z",
+	"related": [
+		"CGA-qgpr-fpf3-fcjv",
+		"CVE-2024-24787",
+		"GHSA-5fq7-4mxc-535h"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "newrelic-nri-statsd",
+				"purl": "pkg:apk/chainguard/newrelic-nri-statsd"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.9.1-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-qgpr-fpf3-fcjv.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "newrelic-nri-statsd",
+				"purl": "pkg:apk/wolfi/newrelic-nri-statsd"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.9.1-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-qgpr-fpf3-fcjv.json"
+			}
+		}
+	]
+}

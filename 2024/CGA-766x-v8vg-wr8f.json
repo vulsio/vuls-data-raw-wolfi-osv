@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-766x-v8vg-wr8f",
+	"modified": "2024-05-23T17:36:44Z",
+	"published": "2024-06-06T12:24:52.229351Z",
+	"related": [
+		"CGA-766x-v8vg-wr8f",
+		"CVE-2024-29902",
+		"GHSA-88jx-383q-w4qc"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "vexctl",
+				"purl": "pkg:apk/chainguard/vexctl"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.2.6-r7"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-766x-v8vg-wr8f.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "vexctl",
+				"purl": "pkg:apk/wolfi/vexctl"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.2.6-r7"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-766x-v8vg-wr8f.json"
+			}
+		}
+	]
+}

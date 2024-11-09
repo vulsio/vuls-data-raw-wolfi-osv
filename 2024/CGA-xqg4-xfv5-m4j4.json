@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-xqg4-xfv5-m4j4",
+	"modified": "2023-12-04T21:24:28Z",
+	"published": "2024-06-06T12:30:03.045300Z",
+	"related": [
+		"CGA-xqg4-xfv5-m4j4",
+		"CVE-2023-47633",
+		"GHSA-6fwg-jrfw-ff7p"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "traefik",
+				"purl": "pkg:apk/chainguard/traefik"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.10.6-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-xqg4-xfv5-m4j4.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "traefik",
+				"purl": "pkg:apk/wolfi/traefik"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.10.6-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-xqg4-xfv5-m4j4.json"
+			}
+		}
+	]
+}

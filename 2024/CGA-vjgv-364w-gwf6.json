@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-vjgv-364w-gwf6",
+	"modified": "2023-10-13T20:03:04Z",
+	"published": "2024-06-06T12:26:27.109514Z",
+	"related": [
+		"CGA-vjgv-364w-gwf6",
+		"CVE-2023-3978",
+		"GHSA-2wrh-6pvc-2jm9"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "k8sgpt-operator",
+				"purl": "pkg:apk/chainguard/k8sgpt-operator"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.0.21-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-vjgv-364w-gwf6.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "k8sgpt-operator",
+				"purl": "pkg:apk/wolfi/k8sgpt-operator"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.0.21-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-vjgv-364w-gwf6.json"
+			}
+		}
+	]
+}

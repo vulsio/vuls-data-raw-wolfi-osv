@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-8fww-7wxj-4j6x",
+	"modified": "2024-06-07T08:34:54Z",
+	"published": "2024-06-07T09:05:11.099927Z",
+	"related": [
+		"CGA-8fww-7wxj-4j6x",
+		"CVE-2024-24789",
+		"GHSA-236w-p7wf-5ph8"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "prometheus-statsd-exporter",
+				"purl": "pkg:apk/chainguard/prometheus-statsd-exporter"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.26.1-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-8fww-7wxj-4j6x.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "prometheus-statsd-exporter",
+				"purl": "pkg:apk/wolfi/prometheus-statsd-exporter"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.26.1-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-8fww-7wxj-4j6x.json"
+			}
+		}
+	]
+}

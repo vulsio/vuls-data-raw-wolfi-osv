@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-vpgg-7v9c-5crj",
+	"modified": "2023-10-25T23:51:55Z",
+	"published": "2024-06-06T12:29:35.658842Z",
+	"related": [
+		"CGA-vpgg-7v9c-5crj",
+		"CVE-2023-3978",
+		"GHSA-2wrh-6pvc-2jm9"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "hey",
+				"purl": "pkg:apk/chainguard/hey"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.1.4-r8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-vpgg-7v9c-5crj.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "hey",
+				"purl": "pkg:apk/wolfi/hey"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.1.4-r8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-vpgg-7v9c-5crj.json"
+			}
+		}
+	]
+}

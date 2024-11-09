@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-4xj7-2rqx-3qqf",
+	"modified": "2024-09-12T20:33:50Z",
+	"published": "2024-09-25T05:14:32.802550Z",
+	"related": [
+		"CGA-4xj7-2rqx-3qqf",
+		"CVE-2024-34155",
+		"GHSA-8xfx-rj4p-23jm"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "nvidia-device-plugin",
+				"purl": "pkg:apk/chainguard/nvidia-device-plugin"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.16.2-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-4xj7-2rqx-3qqf.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "nvidia-device-plugin",
+				"purl": "pkg:apk/wolfi/nvidia-device-plugin"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.16.2-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-4xj7-2rqx-3qqf.json"
+			}
+		}
+	]
+}

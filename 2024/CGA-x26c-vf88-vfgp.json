@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-x26c-vf88-vfgp",
+	"modified": "2024-04-13T07:28:19Z",
+	"published": "2024-06-06T12:29:52.894893Z",
+	"related": [
+		"CGA-x26c-vf88-vfgp",
+		"CVE-2024-24557",
+		"GHSA-xw73-rw38-6vjc"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "nerdctl",
+				"purl": "pkg:apk/chainguard/nerdctl"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.7.5-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-x26c-vf88-vfgp.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "nerdctl",
+				"purl": "pkg:apk/wolfi/nerdctl"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.7.5-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-x26c-vf88-vfgp.json"
+			}
+		}
+	]
+}

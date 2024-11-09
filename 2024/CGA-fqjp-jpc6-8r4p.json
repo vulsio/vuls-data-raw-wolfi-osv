@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-fqjp-jpc6-8r4p",
+	"modified": "2024-04-13T07:21:30Z",
+	"published": "2024-06-06T12:27:14.864951Z",
+	"related": [
+		"CGA-fqjp-jpc6-8r4p",
+		"CVE-2023-45288",
+		"GHSA-4v7x-pqxf-cx7m"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "newrelic-prometheus-configurator",
+				"purl": "pkg:apk/chainguard/newrelic-prometheus-configurator"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.15.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fqjp-jpc6-8r4p.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "newrelic-prometheus-configurator",
+				"purl": "pkg:apk/wolfi/newrelic-prometheus-configurator"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.15.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fqjp-jpc6-8r4p.json"
+			}
+		}
+	]
+}

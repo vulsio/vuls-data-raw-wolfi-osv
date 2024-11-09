@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-p579-326g-hgv3",
+	"modified": "2024-09-04T11:30:55Z",
+	"published": "2024-09-25T05:29:50.612729Z",
+	"related": [
+		"CGA-p579-326g-hgv3",
+		"CVE-2024-45310",
+		"GHSA-jfvp-7x6p-h2pv"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "syft",
+				"purl": "pkg:apk/chainguard/syft"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.11.1-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-p579-326g-hgv3.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "syft",
+				"purl": "pkg:apk/wolfi/syft"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.11.1-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-p579-326g-hgv3.json"
+			}
+		}
+	]
+}

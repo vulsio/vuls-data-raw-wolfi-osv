@@ -1,0 +1,104 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-27hp-fvmp-fp36",
+	"modified": "2023-09-09T15:18:06Z",
+	"published": "2024-06-06T12:09:02.005829Z",
+	"related": [
+		"CGA-27hp-fvmp-fp36",
+		"GHSA-6xv5-86q9-7xr8"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "flux-image-automation-controller",
+				"purl": "pkg:apk/chainguard/flux-image-automation-controller"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-27hp-fvmp-fp36.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "flux-image-automation-controller",
+				"purl": "pkg:apk/wolfi/flux-image-automation-controller"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-27hp-fvmp-fp36.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "flux-image-automation-controller-compat",
+				"purl": "pkg:apk/chainguard/flux-image-automation-controller-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-27hp-fvmp-fp36.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "flux-image-automation-controller-compat",
+				"purl": "pkg:apk/wolfi/flux-image-automation-controller-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-27hp-fvmp-fp36.json"
+			}
+		}
+	]
+}

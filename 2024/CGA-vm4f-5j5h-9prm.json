@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-vm4f-5j5h-9prm",
+	"modified": "2024-03-12T08:12:07Z",
+	"published": "2024-06-06T12:29:34.691410Z",
+	"related": [
+		"CGA-vm4f-5j5h-9prm",
+		"CVE-2023-45290",
+		"GHSA-rr6r-cfgf-gc6h"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kyverno-policy-reporter",
+				"purl": "pkg:apk/chainguard/kyverno-policy-reporter"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.18.1-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-vm4f-5j5h-9prm.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "kyverno-policy-reporter",
+				"purl": "pkg:apk/wolfi/kyverno-policy-reporter"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.18.1-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-vm4f-5j5h-9prm.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kyverno-policy-reporter-compat",
+				"purl": "pkg:apk/chainguard/kyverno-policy-reporter-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.18.1-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-vm4f-5j5h-9prm.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "kyverno-policy-reporter-compat",
+				"purl": "pkg:apk/wolfi/kyverno-policy-reporter-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.18.1-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-vm4f-5j5h-9prm.json"
+			}
+		}
+	]
+}

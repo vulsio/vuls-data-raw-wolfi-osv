@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-gpff-pgw9-x577",
+	"modified": "2023-11-07T19:31:37Z",
+	"published": "2024-06-06T12:25:59.307535Z",
+	"related": [
+		"CGA-gpff-pgw9-x577",
+		"CVE-2023-45283",
+		"GHSA-vvjp-q62m-2vph"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kubernetes-1.27",
+				"purl": "pkg:apk/chainguard/kubernetes-1.27"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-gpff-pgw9-x577.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "kubernetes-1.27",
+				"purl": "pkg:apk/wolfi/kubernetes-1.27"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-gpff-pgw9-x577.json"
+			}
+		}
+	]
+}

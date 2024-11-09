@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-4m4w-f56m-5p2g",
+	"modified": "2024-07-04T07:26:11Z",
+	"published": "2024-07-15T21:52:30.168179Z",
+	"related": [
+		"CGA-4m4w-f56m-5p2g",
+		"CVE-2024-24791",
+		"GHSA-hw49-2p59-3mhj"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kubernetes-csi-livenessprobe",
+				"purl": "pkg:apk/chainguard/kubernetes-csi-livenessprobe"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.13.0-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-4m4w-f56m-5p2g.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "kubernetes-csi-livenessprobe",
+				"purl": "pkg:apk/wolfi/kubernetes-csi-livenessprobe"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.13.0-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-4m4w-f56m-5p2g.json"
+			}
+		}
+	]
+}

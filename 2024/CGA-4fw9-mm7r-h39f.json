@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-4fw9-mm7r-h39f",
+	"modified": "2024-06-07T07:19:18Z",
+	"published": "2024-06-07T08:04:32.377187Z",
+	"related": [
+		"CGA-4fw9-mm7r-h39f",
+		"CVE-2024-24789",
+		"GHSA-236w-p7wf-5ph8"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "prometheus-mysqld-exporter",
+				"purl": "pkg:apk/chainguard/prometheus-mysqld-exporter"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.15.1-r8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-4fw9-mm7r-h39f.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "prometheus-mysqld-exporter",
+				"purl": "pkg:apk/wolfi/prometheus-mysqld-exporter"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.15.1-r8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-4fw9-mm7r-h39f.json"
+			}
+		}
+	]
+}

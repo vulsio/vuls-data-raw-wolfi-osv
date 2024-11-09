@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-cqcr-2xfq-7j62",
+	"modified": "2024-06-25T13:00:36Z",
+	"published": "2024-07-15T21:56:17.951261Z",
+	"related": [
+		"CGA-cqcr-2xfq-7j62",
+		"CVE-2024-6104",
+		"GHSA-v6v8-xj6m-xwqh"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "slsa-verifier",
+				"purl": "pkg:apk/chainguard/slsa-verifier"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.5.1-r8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-cqcr-2xfq-7j62.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "slsa-verifier",
+				"purl": "pkg:apk/wolfi/slsa-verifier"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.5.1-r8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-cqcr-2xfq-7j62.json"
+			}
+		}
+	]
+}

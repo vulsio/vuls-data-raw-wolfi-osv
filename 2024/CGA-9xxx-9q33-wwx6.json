@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-9xxx-9q33-wwx6",
+	"modified": "2024-09-13T04:10:53Z",
+	"published": "2024-09-25T05:19:56.292331Z",
+	"related": [
+		"CGA-9xxx-9q33-wwx6",
+		"CVE-2024-34155",
+		"GHSA-8xfx-rj4p-23jm"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kyverno-policy-reporter-ui",
+				"purl": "pkg:apk/chainguard/kyverno-policy-reporter-ui"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.9.2-r9"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-9xxx-9q33-wwx6.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "kyverno-policy-reporter-ui",
+				"purl": "pkg:apk/wolfi/kyverno-policy-reporter-ui"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.9.2-r9"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-9xxx-9q33-wwx6.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kyverno-policy-reporter-ui-compat",
+				"purl": "pkg:apk/chainguard/kyverno-policy-reporter-ui-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.9.2-r9"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-9xxx-9q33-wwx6.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "kyverno-policy-reporter-ui-compat",
+				"purl": "pkg:apk/wolfi/kyverno-policy-reporter-ui-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.9.2-r9"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-9xxx-9q33-wwx6.json"
+			}
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-q97p-mpcp-rqh9",
+	"modified": "2024-05-08T08:09:42Z",
+	"published": "2024-06-06T12:29:01.509071Z",
+	"related": [
+		"CGA-q97p-mpcp-rqh9",
+		"CVE-2023-45288",
+		"GHSA-4v7x-pqxf-cx7m"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "docker-credential-gcr",
+				"purl": "pkg:apk/chainguard/docker-credential-gcr"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.1.22-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-q97p-mpcp-rqh9.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "docker-credential-gcr",
+				"purl": "pkg:apk/wolfi/docker-credential-gcr"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.1.22-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-q97p-mpcp-rqh9.json"
+			}
+		}
+	]
+}

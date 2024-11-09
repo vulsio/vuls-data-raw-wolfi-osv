@@ -1,0 +1,58 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-8qxc-r2vj-gx3h",
+	"modified": "2023-12-25T06:33:26Z",
+	"published": "2024-06-06T12:25:42.428666Z",
+	"related": [
+		"CGA-8qxc-r2vj-gx3h",
+		"GHSA-7ww5-4wqc-m92c"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "helm",
+				"purl": "pkg:apk/chainguard/helm"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.13.3-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-8qxc-r2vj-gx3h.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "helm",
+				"purl": "pkg:apk/wolfi/helm"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.13.3-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-8qxc-r2vj-gx3h.json"
+			}
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-r9fp-739p-6rp3",
+	"modified": "2024-09-13T09:07:26Z",
+	"published": "2024-09-25T05:33:39.669561Z",
+	"related": [
+		"CGA-r9fp-739p-6rp3",
+		"CVE-2024-34155",
+		"GHSA-8xfx-rj4p-23jm"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "rancher-webhook-0.5",
+				"purl": "pkg:apk/chainguard/rancher-webhook-0.5"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.5.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-r9fp-739p-6rp3.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "rancher-webhook-0.5",
+				"purl": "pkg:apk/wolfi/rancher-webhook-0.5"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.5.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-r9fp-739p-6rp3.json"
+			}
+		}
+	]
+}

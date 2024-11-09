@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-3r4x-29m7-9pf8",
+	"modified": "2023-12-18T15:42:58Z",
+	"published": "2024-06-06T12:22:07.290793Z",
+	"related": [
+		"CGA-3r4x-29m7-9pf8",
+		"CVE-2023-39326",
+		"GHSA-9f76-wg39-x86h"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "aws-flb-cloudwatch",
+				"purl": "pkg:apk/chainguard/aws-flb-cloudwatch"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.9.4-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-3r4x-29m7-9pf8.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "aws-flb-cloudwatch",
+				"purl": "pkg:apk/wolfi/aws-flb-cloudwatch"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.9.4-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-3r4x-29m7-9pf8.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "aws-flb-cloudwatch-compat",
+				"purl": "pkg:apk/chainguard/aws-flb-cloudwatch-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.9.4-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-3r4x-29m7-9pf8.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "aws-flb-cloudwatch-compat",
+				"purl": "pkg:apk/wolfi/aws-flb-cloudwatch-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.9.4-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-3r4x-29m7-9pf8.json"
+			}
+		}
+	]
+}

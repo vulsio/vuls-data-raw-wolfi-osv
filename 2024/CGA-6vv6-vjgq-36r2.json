@@ -1,0 +1,58 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-6vv6-vjgq-36r2",
+	"modified": "2024-10-09T11:30:45Z",
+	"published": "2024-10-09T12:21:58.002596Z",
+	"related": [
+		"CGA-6vv6-vjgq-36r2",
+		"GHSA-2326-pfpj-vx3h"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "deno",
+				"purl": "pkg:apk/chainguard/deno"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.0.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-6vv6-vjgq-36r2.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "deno",
+				"purl": "pkg:apk/wolfi/deno"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.0.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-6vv6-vjgq-36r2.json"
+			}
+		}
+	]
+}

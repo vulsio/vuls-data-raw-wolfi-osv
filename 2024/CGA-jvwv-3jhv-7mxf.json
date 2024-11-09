@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-jvwv-3jhv-7mxf",
+	"modified": "2024-03-12T10:01:19Z",
+	"published": "2024-06-06T12:26:08.498659Z",
+	"related": [
+		"CGA-jvwv-3jhv-7mxf",
+		"CVE-2024-24784",
+		"GHSA-fgq5-q76c-gx78"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "vault-csi-provider",
+				"purl": "pkg:apk/chainguard/vault-csi-provider"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.4.0-r10"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-jvwv-3jhv-7mxf.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "vault-csi-provider",
+				"purl": "pkg:apk/wolfi/vault-csi-provider"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.4.0-r10"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-jvwv-3jhv-7mxf.json"
+			}
+		}
+	]
+}

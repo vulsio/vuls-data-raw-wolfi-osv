@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-gxrv-2q36-c76g",
+	"modified": "2024-06-01T03:09:54Z",
+	"published": "2024-06-06T12:26:00.269989Z",
+	"related": [
+		"CGA-gxrv-2q36-c76g",
+		"CVE-2024-29133",
+		"GHSA-9w38-p64v-xpmv"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "neo4j",
+				"purl": "pkg:apk/chainguard/neo4j"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.20.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-gxrv-2q36-c76g.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "neo4j",
+				"purl": "pkg:apk/wolfi/neo4j"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.20.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-gxrv-2q36-c76g.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "neo4j-oci-entrypoint",
+				"purl": "pkg:apk/chainguard/neo4j-oci-entrypoint"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.20.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-gxrv-2q36-c76g.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "neo4j-oci-entrypoint",
+				"purl": "pkg:apk/wolfi/neo4j-oci-entrypoint"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.20.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-gxrv-2q36-c76g.json"
+			}
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-3ggr-w55x-hf5j",
+	"modified": "2024-06-20T15:20:48Z",
+	"published": "2024-06-20T16:19:12.629029Z",
+	"related": [
+		"CGA-3ggr-w55x-hf5j",
+		"CVE-2024-37891",
+		"GHSA-34jh-p97f-mpxf"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "k8s-sidecar",
+				"purl": "pkg:apk/chainguard/k8s-sidecar"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.27.4-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-3ggr-w55x-hf5j.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "k8s-sidecar",
+				"purl": "pkg:apk/wolfi/k8s-sidecar"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.27.4-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-3ggr-w55x-hf5j.json"
+			}
+		}
+	]
+}

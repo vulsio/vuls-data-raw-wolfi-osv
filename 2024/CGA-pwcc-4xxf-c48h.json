@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-pwcc-4xxf-c48h",
+	"modified": "2024-06-25T13:31:51Z",
+	"published": "2024-06-25T14:09:20.413243Z",
+	"related": [
+		"CGA-pwcc-4xxf-c48h",
+		"CVE-2024-6104",
+		"GHSA-v6v8-xj6m-xwqh"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "rabbitmq-messaging-topology-operator",
+				"purl": "pkg:apk/chainguard/rabbitmq-messaging-topology-operator"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.14.2-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-pwcc-4xxf-c48h.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "rabbitmq-messaging-topology-operator",
+				"purl": "pkg:apk/wolfi/rabbitmq-messaging-topology-operator"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.14.2-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-pwcc-4xxf-c48h.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "rabbitmq-messaging-topology-operator-compat",
+				"purl": "pkg:apk/chainguard/rabbitmq-messaging-topology-operator-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.14.2-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-pwcc-4xxf-c48h.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "rabbitmq-messaging-topology-operator-compat",
+				"purl": "pkg:apk/wolfi/rabbitmq-messaging-topology-operator-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.14.2-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-pwcc-4xxf-c48h.json"
+			}
+		}
+	]
+}

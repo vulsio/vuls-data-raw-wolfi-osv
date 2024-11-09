@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-2q2m-jhm7-f5xc",
+	"modified": "2024-03-21T11:44:19Z",
+	"published": "2024-06-06T12:21:37.432416Z",
+	"related": [
+		"CGA-2q2m-jhm7-f5xc",
+		"CVE-2024-29018",
+		"GHSA-mq39-4gv4-mvpx"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "docker-compose",
+				"purl": "pkg:apk/chainguard/docker-compose"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.25.0-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-2q2m-jhm7-f5xc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "docker-compose",
+				"purl": "pkg:apk/wolfi/docker-compose"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.25.0-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-2q2m-jhm7-f5xc.json"
+			}
+		}
+	]
+}

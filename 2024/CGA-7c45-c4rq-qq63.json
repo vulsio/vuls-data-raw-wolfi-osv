@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-7c45-c4rq-qq63",
+	"modified": "2024-03-12T07:12:27Z",
+	"published": "2024-06-06T12:23:22.560788Z",
+	"related": [
+		"CGA-7c45-c4rq-qq63",
+		"CVE-2024-24784",
+		"GHSA-fgq5-q76c-gx78"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "nuclei",
+				"purl": "pkg:apk/chainguard/nuclei"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.1.7-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-7c45-c4rq-qq63.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "nuclei",
+				"purl": "pkg:apk/wolfi/nuclei"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.1.7-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-7c45-c4rq-qq63.json"
+			}
+		}
+	]
+}

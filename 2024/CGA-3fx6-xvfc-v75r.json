@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-3fx6-xvfc-v75r",
+	"modified": "2024-11-08T10:34:45Z",
+	"published": "2024-11-08T11:06:23.244209Z",
+	"related": [
+		"CGA-3fx6-xvfc-v75r",
+		"CVE-2024-45314",
+		"GHSA-fw5r-6m3x-rh7p"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "airflow",
+				"purl": "pkg:apk/chainguard/airflow"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.10.3-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-3fx6-xvfc-v75r.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "airflow",
+				"purl": "pkg:apk/wolfi/airflow"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.10.3-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-3fx6-xvfc-v75r.json"
+			}
+		}
+	]
+}

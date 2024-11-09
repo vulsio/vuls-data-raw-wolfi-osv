@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-9v4w-mxqx-qjc6",
+	"modified": "2023-10-13T12:38:13Z",
+	"published": "2024-06-06T12:25:29.950418Z",
+	"related": [
+		"CGA-9v4w-mxqx-qjc6",
+		"CVE-2023-3978",
+		"GHSA-2wrh-6pvc-2jm9"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "argo-cd-2.7",
+				"purl": "pkg:apk/chainguard/argo-cd-2.7"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.7.14-r5"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-9v4w-mxqx-qjc6.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "argo-cd-2.7",
+				"purl": "pkg:apk/wolfi/argo-cd-2.7"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.7.14-r5"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-9v4w-mxqx-qjc6.json"
+			}
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-62f4-2wff-q4x6",
+	"modified": "2022-11-01T17:39:29Z",
+	"published": "2024-06-06T12:24:22.635721Z",
+	"related": [
+		"CGA-62f4-2wff-q4x6",
+		"CVE-2022-41716",
+		"GHSA-mh68-qf2j-8c5g"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "go-1.19",
+				"purl": "pkg:apk/chainguard/go-1.19"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-62f4-2wff-q4x6.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "go-1.19",
+				"purl": "pkg:apk/wolfi/go-1.19"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-62f4-2wff-q4x6.json"
+			}
+		}
+	]
+}

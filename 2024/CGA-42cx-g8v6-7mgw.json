@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-42cx-g8v6-7mgw",
+	"modified": "2024-07-04T08:10:13Z",
+	"published": "2024-07-15T21:51:17.767842Z",
+	"related": [
+		"CGA-42cx-g8v6-7mgw",
+		"CVE-2024-24791",
+		"GHSA-hw49-2p59-3mhj"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cert-manager-cmctl",
+				"purl": "pkg:apk/chainguard/cert-manager-cmctl"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.1.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-42cx-g8v6-7mgw.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "cert-manager-cmctl",
+				"purl": "pkg:apk/wolfi/cert-manager-cmctl"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.1.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-42cx-g8v6-7mgw.json"
+			}
+		}
+	]
+}

@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-cc2m-9r9p-h4mf",
+	"modified": "2024-06-07T14:36:29Z",
+	"published": "2024-07-15T21:55:45.017915Z",
+	"related": [
+		"CGA-cc2m-9r9p-h4mf",
+		"CVE-2024-24790",
+		"GHSA-49gw-vxvf-fc2g"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "aws-flb-cloudwatch",
+				"purl": "pkg:apk/chainguard/aws-flb-cloudwatch"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.9.4-r11"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-cc2m-9r9p-h4mf.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "aws-flb-cloudwatch",
+				"purl": "pkg:apk/wolfi/aws-flb-cloudwatch"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.9.4-r11"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-cc2m-9r9p-h4mf.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "aws-flb-cloudwatch-compat",
+				"purl": "pkg:apk/chainguard/aws-flb-cloudwatch-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.9.4-r11"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-cc2m-9r9p-h4mf.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "aws-flb-cloudwatch-compat",
+				"purl": "pkg:apk/wolfi/aws-flb-cloudwatch-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.9.4-r11"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-cc2m-9r9p-h4mf.json"
+			}
+		}
+	]
+}

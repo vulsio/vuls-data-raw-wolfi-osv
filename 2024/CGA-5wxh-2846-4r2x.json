@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-5wxh-2846-4r2x",
+	"modified": "2024-06-19T09:12:00Z",
+	"published": "2024-06-19T13:06:35.238195Z",
+	"related": [
+		"CGA-5wxh-2846-4r2x",
+		"CVE-2023-2976",
+		"GHSA-7g45-4rm6-3mm3"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "spdx-tools-java",
+				"purl": "pkg:apk/chainguard/spdx-tools-java"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.1.8-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-5wxh-2846-4r2x.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "spdx-tools-java",
+				"purl": "pkg:apk/wolfi/spdx-tools-java"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.1.8-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-5wxh-2846-4r2x.json"
+			}
+		}
+	]
+}

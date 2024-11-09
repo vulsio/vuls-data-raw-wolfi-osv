@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-rh73-qrqq-h4h3",
+	"modified": "2023-10-16T21:02:05Z",
+	"published": "2024-06-06T12:29:19.894755Z",
+	"related": [
+		"CGA-rh73-qrqq-h4h3",
+		"CVE-2023-39325",
+		"GHSA-4374-p667-p6c8"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "gatekeeper-3.12",
+				"purl": "pkg:apk/chainguard/gatekeeper-3.12"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.12.0-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-rh73-qrqq-h4h3.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "gatekeeper-3.12",
+				"purl": "pkg:apk/wolfi/gatekeeper-3.12"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.12.0-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-rh73-qrqq-h4h3.json"
+			}
+		}
+	]
+}

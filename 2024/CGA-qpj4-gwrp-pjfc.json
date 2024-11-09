@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-qpj4-gwrp-pjfc",
+	"modified": "2024-08-03T12:23:43Z",
+	"published": "2024-08-03T13:22:54.976350Z",
+	"related": [
+		"CGA-qpj4-gwrp-pjfc",
+		"CVE-2024-32650",
+		"GHSA-6g7w-8wpp-frhj"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "wasmcloud",
+				"purl": "pkg:apk/chainguard/wasmcloud"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.1.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-qpj4-gwrp-pjfc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "wasmcloud",
+				"purl": "pkg:apk/wolfi/wasmcloud"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.1.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-qpj4-gwrp-pjfc.json"
+			}
+		}
+	]
+}

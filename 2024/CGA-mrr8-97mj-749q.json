@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-mrr8-97mj-749q",
+	"modified": "2024-06-19T14:35:31Z",
+	"published": "2024-06-19T18:04:16.816539Z",
+	"related": [
+		"CGA-mrr8-97mj-749q",
+		"CVE-2024-37891",
+		"GHSA-34jh-p97f-mpxf"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "az",
+				"purl": "pkg:apk/chainguard/az"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.61.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mrr8-97mj-749q.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "az",
+				"purl": "pkg:apk/wolfi/az"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.61.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mrr8-97mj-749q.json"
+			}
+		}
+	]
+}

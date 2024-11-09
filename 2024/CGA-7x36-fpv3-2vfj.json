@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-7x36-fpv3-2vfj",
+	"modified": "2024-07-30T20:27:04Z",
+	"published": "2024-09-25T05:16:25.419863Z",
+	"related": [
+		"CGA-7x36-fpv3-2vfj",
+		"CVE-2021-38187",
+		"GHSA-hc92-9h3m-c39j"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "buck2",
+				"purl": "pkg:apk/chainguard/buck2"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "20240701-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-7x36-fpv3-2vfj.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "buck2",
+				"purl": "pkg:apk/wolfi/buck2"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "20240701-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-7x36-fpv3-2vfj.json"
+			}
+		}
+	]
+}

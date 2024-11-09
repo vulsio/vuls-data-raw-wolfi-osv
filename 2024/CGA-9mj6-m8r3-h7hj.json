@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-9mj6-m8r3-h7hj",
+	"modified": "2024-03-12T20:04:29Z",
+	"published": "2024-06-06T12:25:47.033922Z",
+	"related": [
+		"CGA-9mj6-m8r3-h7hj",
+		"CVE-2024-24783",
+		"GHSA-3q2c-pvp5-3cqp"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "clusterctl",
+				"purl": "pkg:apk/chainguard/clusterctl"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.6.3-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-9mj6-m8r3-h7hj.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "clusterctl",
+				"purl": "pkg:apk/wolfi/clusterctl"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.6.3-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-9mj6-m8r3-h7hj.json"
+			}
+		}
+	]
+}

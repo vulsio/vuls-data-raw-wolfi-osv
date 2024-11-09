@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-h2hq-cwc3-gv4v",
+	"modified": "2024-02-16T07:37:58Z",
+	"published": "2024-06-06T12:27:35.344892Z",
+	"related": [
+		"CGA-h2hq-cwc3-gv4v",
+		"CVE-2023-45285",
+		"GHSA-5f94-vhjq-rpg8"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kubernetes-dashboard-metrics-scraper",
+				"purl": "pkg:apk/chainguard/kubernetes-dashboard-metrics-scraper"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.0.9-r10"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-h2hq-cwc3-gv4v.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "kubernetes-dashboard-metrics-scraper",
+				"purl": "pkg:apk/wolfi/kubernetes-dashboard-metrics-scraper"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.0.9-r10"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-h2hq-cwc3-gv4v.json"
+			}
+		}
+	]
+}

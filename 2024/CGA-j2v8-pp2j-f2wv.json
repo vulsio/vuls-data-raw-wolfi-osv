@@ -1,0 +1,58 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-j2v8-pp2j-f2wv",
+	"modified": "2024-04-27T17:12:25Z",
+	"published": "2024-06-06T12:27:59.354046Z",
+	"related": [
+		"CGA-j2v8-pp2j-f2wv",
+		"GHSA-2w8w-qhg4-f78j"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "jaeger-agent",
+				"purl": "pkg:apk/chainguard/jaeger-agent"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-j2v8-pp2j-f2wv.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "jaeger-agent",
+				"purl": "pkg:apk/wolfi/jaeger-agent"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-j2v8-pp2j-f2wv.json"
+			}
+		}
+	]
+}

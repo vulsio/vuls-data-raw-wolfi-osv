@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-hfrv-xx9v-v78g",
+	"modified": "2024-02-23T07:47:39Z",
+	"published": "2024-06-06T12:27:42.502520Z",
+	"related": [
+		"CGA-hfrv-xx9v-v78g",
+		"CVE-2023-44487",
+		"GHSA-qppj-fm5r-hxr3"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "src",
+				"purl": "pkg:apk/chainguard/src"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.3.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-hfrv-xx9v-v78g.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "src",
+				"purl": "pkg:apk/wolfi/src"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.3.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-hfrv-xx9v-v78g.json"
+			}
+		}
+	]
+}

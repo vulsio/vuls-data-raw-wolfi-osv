@@ -1,0 +1,58 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-xw4j-jwp2-3pcj",
+	"modified": "2024-02-15T10:32:28Z",
+	"published": "2024-06-06T12:30:05.070414Z",
+	"related": [
+		"CGA-xw4j-jwp2-3pcj",
+		"GHSA-m425-mq94-257g"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kubernetes-csi-external-attacher-4.3",
+				"purl": "pkg:apk/chainguard/kubernetes-csi-external-attacher-4.3"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "4.3.0-r11"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-xw4j-jwp2-3pcj.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "kubernetes-csi-external-attacher-4.3",
+				"purl": "pkg:apk/wolfi/kubernetes-csi-external-attacher-4.3"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "4.3.0-r11"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-xw4j-jwp2-3pcj.json"
+			}
+		}
+	]
+}

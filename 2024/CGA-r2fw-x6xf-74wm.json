@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-r2fw-x6xf-74wm",
+	"modified": "2024-06-07T18:12:49Z",
+	"published": "2024-06-07T20:06:50.182871Z",
+	"related": [
+		"CGA-r2fw-x6xf-74wm",
+		"CVE-2024-24789",
+		"GHSA-236w-p7wf-5ph8"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "gpu-feature-discovery",
+				"purl": "pkg:apk/chainguard/gpu-feature-discovery"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.8.2-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-r2fw-x6xf-74wm.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "gpu-feature-discovery",
+				"purl": "pkg:apk/wolfi/gpu-feature-discovery"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.8.2-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-r2fw-x6xf-74wm.json"
+			}
+		}
+	]
+}

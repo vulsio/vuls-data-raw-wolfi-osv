@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-45fw-6h75-3fv5",
+	"modified": "2024-10-21T13:44:29Z",
+	"published": "2024-10-21T14:21:51.948868Z",
+	"related": [
+		"CGA-45fw-6h75-3fv5",
+		"CVE-2024-21534",
+		"GHSA-pppg-cpfq-h7wr"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kubeflow-centraldashboard",
+				"purl": "pkg:apk/chainguard/kubeflow-centraldashboard"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.9.1-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-45fw-6h75-3fv5.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "kubeflow-centraldashboard",
+				"purl": "pkg:apk/wolfi/kubeflow-centraldashboard"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.9.1-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-45fw-6h75-3fv5.json"
+			}
+		}
+	]
+}

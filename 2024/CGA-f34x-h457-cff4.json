@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-f34x-h457-cff4",
+	"modified": "2024-05-14T09:24:46Z",
+	"published": "2024-06-06T12:27:01.107969Z",
+	"related": [
+		"CGA-f34x-h457-cff4",
+		"CVE-2024-24787",
+		"GHSA-5fq7-4mxc-535h"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kyverno-policy-reporter-kyverno-plugin",
+				"purl": "pkg:apk/chainguard/kyverno-policy-reporter-kyverno-plugin"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.6.3-r5"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-f34x-h457-cff4.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "kyverno-policy-reporter-kyverno-plugin",
+				"purl": "pkg:apk/wolfi/kyverno-policy-reporter-kyverno-plugin"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.6.3-r5"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-f34x-h457-cff4.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kyverno-policy-reporter-kyverno-plugin-compat",
+				"purl": "pkg:apk/chainguard/kyverno-policy-reporter-kyverno-plugin-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.6.3-r5"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-f34x-h457-cff4.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "kyverno-policy-reporter-kyverno-plugin-compat",
+				"purl": "pkg:apk/wolfi/kyverno-policy-reporter-kyverno-plugin-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.6.3-r5"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-f34x-h457-cff4.json"
+			}
+		}
+	]
+}

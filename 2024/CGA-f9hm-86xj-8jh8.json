@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-f9hm-86xj-8jh8",
+	"modified": "2024-02-29T08:05:24Z",
+	"published": "2024-06-06T12:27:07.926854Z",
+	"related": [
+		"CGA-f9hm-86xj-8jh8",
+		"CVE-2024-26141",
+		"GHSA-xj5v-6v4g-jfw6"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "ruby3.2-rack",
+				"purl": "pkg:apk/chainguard/ruby3.2-rack"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.0.9.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-f9hm-86xj-8jh8.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "ruby3.2-rack",
+				"purl": "pkg:apk/wolfi/ruby3.2-rack"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.0.9.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-f9hm-86xj-8jh8.json"
+			}
+		}
+	]
+}

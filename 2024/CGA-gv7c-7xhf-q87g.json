@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-gv7c-7xhf-q87g",
+	"modified": "2024-06-28T12:26:03Z",
+	"published": "2024-07-15T21:58:58.924141Z",
+	"related": [
+		"CGA-gv7c-7xhf-q87g",
+		"CVE-2024-1402",
+		"GHSA-32h7-7j94-8fc2"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "mattermost-9",
+				"purl": "pkg:apk/chainguard/mattermost-9"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-gv7c-7xhf-q87g.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "mattermost-9",
+				"purl": "pkg:apk/wolfi/mattermost-9"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-gv7c-7xhf-q87g.json"
+			}
+		}
+	]
+}

@@ -1,0 +1,58 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-79x4-p5xh-xxp6",
+	"modified": "2024-08-28T08:31:51Z",
+	"published": "2024-08-28T09:04:51.138992Z",
+	"related": [
+		"CGA-79x4-p5xh-xxp6",
+		"CVE-2024-43802"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "vim",
+				"purl": "pkg:apk/chainguard/vim"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.1.0698-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-79x4-p5xh-xxp6.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "vim",
+				"purl": "pkg:apk/wolfi/vim"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.1.0698-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-79x4-p5xh-xxp6.json"
+			}
+		}
+	]
+}

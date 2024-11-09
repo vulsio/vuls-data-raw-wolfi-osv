@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-jj9x-qh92-r572",
+	"modified": "2024-03-20T22:06:53Z",
+	"published": "2024-06-06T12:26:07.091857Z",
+	"related": [
+		"CGA-jj9x-qh92-r572",
+		"CVE-2023-45290",
+		"GHSA-rr6r-cfgf-gc6h"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "vite",
+				"purl": "pkg:apk/chainguard/vite"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.2.2-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-jj9x-qh92-r572.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "vite",
+				"purl": "pkg:apk/wolfi/vite"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.2.2-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-jj9x-qh92-r572.json"
+			}
+		}
+	]
+}

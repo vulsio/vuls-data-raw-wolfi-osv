@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-fwg5-qf7m-r6j2",
+	"modified": "2024-05-14T13:11:11Z",
+	"published": "2024-06-06T12:27:17.137266Z",
+	"related": [
+		"CGA-fwg5-qf7m-r6j2",
+		"CVE-2024-24788",
+		"GHSA-2jwv-jmq4-4j3r"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kubernetes-csi-driver-hostpath",
+				"purl": "pkg:apk/chainguard/kubernetes-csi-driver-hostpath"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.13.0-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fwg5-qf7m-r6j2.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "kubernetes-csi-driver-hostpath",
+				"purl": "pkg:apk/wolfi/kubernetes-csi-driver-hostpath"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.13.0-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fwg5-qf7m-r6j2.json"
+			}
+		}
+	]
+}

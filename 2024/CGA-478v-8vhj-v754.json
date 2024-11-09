@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-478v-8vhj-v754",
+	"modified": "2024-03-10T16:09:55Z",
+	"published": "2024-06-06T12:14:49.461966Z",
+	"related": [
+		"CGA-478v-8vhj-v754",
+		"CVE-2024-28180",
+		"GHSA-c5q2-7r4c-mv6g"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cloudflared",
+				"purl": "pkg:apk/chainguard/cloudflared"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2024.1.0-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-478v-8vhj-v754.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "cloudflared",
+				"purl": "pkg:apk/wolfi/cloudflared"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2024.1.0-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-478v-8vhj-v754.json"
+			}
+		}
+	]
+}

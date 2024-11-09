@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-vf43-cv58-v52g",
+	"modified": "2023-10-13T20:04:36Z",
+	"published": "2024-06-06T12:26:26.168943Z",
+	"related": [
+		"CGA-vf43-cv58-v52g",
+		"CVE-2023-3978",
+		"GHSA-2wrh-6pvc-2jm9"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "karpenter",
+				"purl": "pkg:apk/chainguard/karpenter"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.31.1-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-vf43-cv58-v52g.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "karpenter",
+				"purl": "pkg:apk/wolfi/karpenter"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.31.1-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-vf43-cv58-v52g.json"
+			}
+		}
+	]
+}

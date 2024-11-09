@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-2wj5-vhh8-fgjm",
+	"modified": "2024-05-22T19:13:18Z",
+	"published": "2024-06-06T12:21:15.873439Z",
+	"related": [
+		"CGA-2wj5-vhh8-fgjm",
+		"CVE-2021-39156",
+		"GHSA-hqxw-mm44-gc4r"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "istio-pilot-agent-1.22",
+				"purl": "pkg:apk/chainguard/istio-pilot-agent-1.22"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-2wj5-vhh8-fgjm.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "istio-pilot-agent-1.22",
+				"purl": "pkg:apk/wolfi/istio-pilot-agent-1.22"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-2wj5-vhh8-fgjm.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "istio-pilot-agent-1.22-compat",
+				"purl": "pkg:apk/chainguard/istio-pilot-agent-1.22-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-2wj5-vhh8-fgjm.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "istio-pilot-agent-1.22-compat",
+				"purl": "pkg:apk/wolfi/istio-pilot-agent-1.22-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-2wj5-vhh8-fgjm.json"
+			}
+		}
+	]
+}

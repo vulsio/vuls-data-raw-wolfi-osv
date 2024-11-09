@@ -1,0 +1,58 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-4pjf-4583-fw3p",
+	"modified": "2023-10-31T20:03:46Z",
+	"published": "2024-06-06T12:23:43.501151Z",
+	"related": [
+		"CGA-4pjf-4583-fw3p",
+		"GHSA-jq35-85cj-fj4p"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "flux-image-reflector-controller",
+				"purl": "pkg:apk/chainguard/flux-image-reflector-controller"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-4pjf-4583-fw3p.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "flux-image-reflector-controller",
+				"purl": "pkg:apk/wolfi/flux-image-reflector-controller"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-4pjf-4583-fw3p.json"
+			}
+		}
+	]
+}

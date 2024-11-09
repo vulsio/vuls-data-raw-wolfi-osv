@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-xf2q-3xgm-2v87",
+	"modified": "2024-03-12T08:09:41Z",
+	"published": "2024-06-06T12:29:58.210431Z",
+	"related": [
+		"CGA-xf2q-3xgm-2v87",
+		"CVE-2023-45290",
+		"GHSA-rr6r-cfgf-gc6h"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kubernetes-csi-external-snapshotter",
+				"purl": "pkg:apk/chainguard/kubernetes-csi-external-snapshotter"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "7.0.1-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-xf2q-3xgm-2v87.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "kubernetes-csi-external-snapshotter",
+				"purl": "pkg:apk/wolfi/kubernetes-csi-external-snapshotter"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "7.0.1-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-xf2q-3xgm-2v87.json"
+			}
+		}
+	]
+}

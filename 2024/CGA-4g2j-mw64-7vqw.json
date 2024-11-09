@@ -1,0 +1,58 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-4g2j-mw64-7vqw",
+	"modified": "2024-07-10T09:04:46Z",
+	"published": "2024-07-15T21:51:45.955409Z",
+	"related": [
+		"CGA-4g2j-mw64-7vqw",
+		"GHSA-xr7q-jx4m-x55m"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "gomplate",
+				"purl": "pkg:apk/chainguard/gomplate"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "4.1.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-4g2j-mw64-7vqw.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "gomplate",
+				"purl": "pkg:apk/wolfi/gomplate"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "4.1.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-4g2j-mw64-7vqw.json"
+			}
+		}
+	]
+}

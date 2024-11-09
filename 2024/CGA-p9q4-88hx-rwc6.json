@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-p9q4-88hx-rwc6",
+	"modified": "2023-10-27T19:27:42Z",
+	"published": "2024-06-06T12:28:43.148328Z",
+	"related": [
+		"CGA-p9q4-88hx-rwc6",
+		"CVE-2023-39331",
+		"GHSA-7xrv-q25v-f95m"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "nodejs-20",
+				"purl": "pkg:apk/chainguard/nodejs-20"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "20.8.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-p9q4-88hx-rwc6.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "nodejs-20",
+				"purl": "pkg:apk/wolfi/nodejs-20"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "20.8.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-p9q4-88hx-rwc6.json"
+			}
+		}
+	]
+}
