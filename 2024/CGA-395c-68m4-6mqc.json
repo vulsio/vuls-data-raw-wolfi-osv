@@ -1,0 +1,473 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-395c-68m4-6mqc",
+	"modified": "2024-11-16T10:32:53Z",
+	"published": "2024-11-16T11:06:25.923040Z",
+	"related": [
+		"CGA-395c-68m4-6mqc",
+		"CVE-2024-10978",
+		"GHSA-37v9-jh5m-f5pg"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "postgresql-17",
+				"purl": "pkg:apk/chainguard/postgresql-17"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-395c-68m4-6mqc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "postgresql-17",
+				"purl": "pkg:apk/wolfi/postgresql-17"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-395c-68m4-6mqc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "libecpg-17",
+				"purl": "pkg:apk/chainguard/libecpg-17"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-395c-68m4-6mqc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "libecpg-17",
+				"purl": "pkg:apk/wolfi/libecpg-17"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-395c-68m4-6mqc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "libpq-17",
+				"purl": "pkg:apk/chainguard/libpq-17"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-395c-68m4-6mqc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "libpq-17",
+				"purl": "pkg:apk/wolfi/libpq-17"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-395c-68m4-6mqc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "postgresql-17-base",
+				"purl": "pkg:apk/chainguard/postgresql-17-base"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-395c-68m4-6mqc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "postgresql-17-base",
+				"purl": "pkg:apk/wolfi/postgresql-17-base"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-395c-68m4-6mqc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "postgresql-17-client",
+				"purl": "pkg:apk/chainguard/postgresql-17-client"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-395c-68m4-6mqc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "postgresql-17-client",
+				"purl": "pkg:apk/wolfi/postgresql-17-client"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-395c-68m4-6mqc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "postgresql-17-client-base",
+				"purl": "pkg:apk/chainguard/postgresql-17-client-base"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-395c-68m4-6mqc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "postgresql-17-client-base",
+				"purl": "pkg:apk/wolfi/postgresql-17-client-base"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-395c-68m4-6mqc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "postgresql-17-contrib",
+				"purl": "pkg:apk/chainguard/postgresql-17-contrib"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-395c-68m4-6mqc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "postgresql-17-contrib",
+				"purl": "pkg:apk/wolfi/postgresql-17-contrib"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-395c-68m4-6mqc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "postgresql-17-dev",
+				"purl": "pkg:apk/chainguard/postgresql-17-dev"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-395c-68m4-6mqc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "postgresql-17-dev",
+				"purl": "pkg:apk/wolfi/postgresql-17-dev"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-395c-68m4-6mqc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "postgresql-17-oci-entrypoint",
+				"purl": "pkg:apk/chainguard/postgresql-17-oci-entrypoint"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-395c-68m4-6mqc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "postgresql-17-oci-entrypoint",
+				"purl": "pkg:apk/wolfi/postgresql-17-oci-entrypoint"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-395c-68m4-6mqc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "postgresql-17-oci-entrypoint-base",
+				"purl": "pkg:apk/chainguard/postgresql-17-oci-entrypoint-base"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-395c-68m4-6mqc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "postgresql-17-oci-entrypoint-base",
+				"purl": "pkg:apk/wolfi/postgresql-17-oci-entrypoint-base"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-395c-68m4-6mqc.json"
+			}
+		}
+	]
+}
