@@ -1,0 +1,58 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-p5ch-g25w-vqch",
+	"modified": "2024-11-21T10:29:00Z",
+	"published": "2024-11-21T11:06:26.005012Z",
+	"related": [
+		"CGA-p5ch-g25w-vqch",
+		"GHSA-r4pg-vg54-wxx4"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cert-manager-cmctl",
+				"purl": "pkg:apk/chainguard/cert-manager-cmctl"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.1.1-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-p5ch-g25w-vqch.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "cert-manager-cmctl",
+				"purl": "pkg:apk/wolfi/cert-manager-cmctl"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.1.1-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-p5ch-g25w-vqch.json"
+			}
+		}
+	]
+}
