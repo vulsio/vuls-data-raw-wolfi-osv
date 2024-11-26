@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-qwx9-pqc4-38xv",
+	"modified": "2024-11-26T10:44:26Z",
+	"published": "2024-11-26T11:21:32.796071Z",
+	"related": [
+		"CGA-qwx9-pqc4-38xv",
+		"CVE-2024-10039",
+		"GHSA-93ww-43rr-79v3"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "keycloak-operator",
+				"purl": "pkg:apk/chainguard/keycloak-operator"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "26.0.6-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-qwx9-pqc4-38xv.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "keycloak-operator",
+				"purl": "pkg:apk/wolfi/keycloak-operator"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "26.0.6-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-qwx9-pqc4-38xv.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "keycloak-operator-compat",
+				"purl": "pkg:apk/chainguard/keycloak-operator-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "26.0.6-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-qwx9-pqc4-38xv.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "keycloak-operator-compat",
+				"purl": "pkg:apk/wolfi/keycloak-operator-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "26.0.6-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-qwx9-pqc4-38xv.json"
+			}
+		}
+	]
+}
