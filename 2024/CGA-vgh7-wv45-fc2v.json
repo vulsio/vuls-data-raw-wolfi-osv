@@ -1,0 +1,58 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-vgh7-wv45-fc2v",
+	"modified": "2024-12-05T10:33:01Z",
+	"published": "2024-12-05T11:06:32.399914Z",
+	"related": [
+		"CGA-vgh7-wv45-fc2v",
+		"GHSA-wwq9-3cpr-mm53"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "tealdeer",
+				"purl": "pkg:apk/chainguard/tealdeer"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.7.1-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-vgh7-wv45-fc2v.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "tealdeer",
+				"purl": "pkg:apk/wolfi/tealdeer"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.7.1-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-vgh7-wv45-fc2v.json"
+			}
+		}
+	]
+}
