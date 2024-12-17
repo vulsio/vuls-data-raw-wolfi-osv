@@ -1,0 +1,151 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-mvv3-xjv4-w9gc",
+	"modified": "2024-12-17T03:00:51Z",
+	"published": "2024-12-17T03:37:53.242791Z",
+	"related": [
+		"CGA-mvv3-xjv4-w9gc",
+		"CVE-2022-37620",
+		"GHSA-pfq8-rq6v-vf5m"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "jitsucom-jitsu",
+				"purl": "pkg:apk/chainguard/jitsucom-jitsu"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.8.4-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mvv3-xjv4-w9gc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "jitsucom-jitsu",
+				"purl": "pkg:apk/wolfi/jitsucom-jitsu"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.8.4-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mvv3-xjv4-w9gc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "jitsucom-jitsu-console",
+				"purl": "pkg:apk/chainguard/jitsucom-jitsu-console"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.8.4-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mvv3-xjv4-w9gc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "jitsucom-jitsu-console",
+				"purl": "pkg:apk/wolfi/jitsucom-jitsu-console"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.8.4-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mvv3-xjv4-w9gc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "jitsucom-jitsu-rotor",
+				"purl": "pkg:apk/chainguard/jitsucom-jitsu-rotor"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.8.4-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mvv3-xjv4-w9gc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "jitsucom-jitsu-rotor",
+				"purl": "pkg:apk/wolfi/jitsucom-jitsu-rotor"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.8.4-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mvv3-xjv4-w9gc.json"
+			}
+		}
+	]
+}
