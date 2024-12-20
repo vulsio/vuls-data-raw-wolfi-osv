@@ -1,0 +1,151 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-hvwv-x624-392j",
+	"modified": "2024-12-20T15:30:48Z",
+	"published": "2024-12-20T16:04:34.716832Z",
+	"related": [
+		"CGA-hvwv-x624-392j",
+		"CVE-2024-45338",
+		"GHSA-w32m-9786-jp63"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "trillian",
+				"purl": "pkg:apk/chainguard/trillian"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.7.0-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-hvwv-x624-392j.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "trillian",
+				"purl": "pkg:apk/wolfi/trillian"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.7.0-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-hvwv-x624-392j.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "trillian-logserver",
+				"purl": "pkg:apk/chainguard/trillian-logserver"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.7.0-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-hvwv-x624-392j.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "trillian-logserver",
+				"purl": "pkg:apk/wolfi/trillian-logserver"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.7.0-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-hvwv-x624-392j.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "trillian-logsigner",
+				"purl": "pkg:apk/chainguard/trillian-logsigner"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.7.0-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-hvwv-x624-392j.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "trillian-logsigner",
+				"purl": "pkg:apk/wolfi/trillian-logsigner"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.7.0-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-hvwv-x624-392j.json"
+			}
+		}
+	]
+}
