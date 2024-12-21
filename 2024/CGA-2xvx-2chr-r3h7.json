@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-2xvx-2chr-r3h7",
+	"modified": "2024-12-21T13:39:18Z",
+	"published": "2024-12-21T14:08:21.310546Z",
+	"related": [
+		"CGA-2xvx-2chr-r3h7",
+		"CVE-2024-45338",
+		"GHSA-w32m-9786-jp63"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "grafana-mimir",
+				"purl": "pkg:apk/chainguard/grafana-mimir"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.14.2-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-2xvx-2chr-r3h7.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "grafana-mimir",
+				"purl": "pkg:apk/wolfi/grafana-mimir"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.14.2-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-2xvx-2chr-r3h7.json"
+			}
+		}
+	]
+}
