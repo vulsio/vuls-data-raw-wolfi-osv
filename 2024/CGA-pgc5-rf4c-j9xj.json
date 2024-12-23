@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-pgc5-rf4c-j9xj",
+	"modified": "2024-12-22T20:18:07Z",
+	"published": "2024-12-22T21:00:33.388681Z",
+	"related": [
+		"CGA-pgc5-rf4c-j9xj",
+		"CVE-2024-12224",
+		"GHSA-h97m-ww89-6jmq"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "nushell",
+				"purl": "pkg:apk/chainguard/nushell"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.101.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-pgc5-rf4c-j9xj.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "nushell",
+				"purl": "pkg:apk/wolfi/nushell"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.101.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-pgc5-rf4c-j9xj.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "nushell-plugins",
+				"purl": "pkg:apk/chainguard/nushell-plugins"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.101.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-pgc5-rf4c-j9xj.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "nushell-plugins",
+				"purl": "pkg:apk/wolfi/nushell-plugins"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.101.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-pgc5-rf4c-j9xj.json"
+			}
+		}
+	]
+}

@@ -1,0 +1,104 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-wjjh-84v2-frv2",
+	"modified": "2024-12-22T20:18:07Z",
+	"published": "2024-12-22T21:00:37.055831Z",
+	"related": [
+		"CGA-wjjh-84v2-frv2",
+		"GHSA-wwq9-3cpr-mm53"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "nushell",
+				"purl": "pkg:apk/chainguard/nushell"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.101.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-wjjh-84v2-frv2.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "nushell",
+				"purl": "pkg:apk/wolfi/nushell"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.101.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-wjjh-84v2-frv2.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "nushell-plugins",
+				"purl": "pkg:apk/chainguard/nushell-plugins"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.101.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-wjjh-84v2-frv2.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "nushell-plugins",
+				"purl": "pkg:apk/wolfi/nushell-plugins"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.101.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-wjjh-84v2-frv2.json"
+			}
+		}
+	]
+}
