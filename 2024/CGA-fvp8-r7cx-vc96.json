@@ -1,0 +1,289 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-fvp8-r7cx-vc96",
+	"modified": "2024-12-30T10:35:42Z",
+	"published": "2024-12-30T11:19:38.953178Z",
+	"related": [
+		"CGA-fvp8-r7cx-vc96",
+		"CVE-2024-12224",
+		"GHSA-h97m-ww89-6jmq"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "shadowsocks-rust",
+				"purl": "pkg:apk/chainguard/shadowsocks-rust"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.21.2-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fvp8-r7cx-vc96.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "shadowsocks-rust",
+				"purl": "pkg:apk/wolfi/shadowsocks-rust"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.21.2-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fvp8-r7cx-vc96.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "shadowsocks-rust-sslocal",
+				"purl": "pkg:apk/chainguard/shadowsocks-rust-sslocal"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.21.2-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fvp8-r7cx-vc96.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "shadowsocks-rust-sslocal",
+				"purl": "pkg:apk/wolfi/shadowsocks-rust-sslocal"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.21.2-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fvp8-r7cx-vc96.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "shadowsocks-rust-ssmanager",
+				"purl": "pkg:apk/chainguard/shadowsocks-rust-ssmanager"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.21.2-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fvp8-r7cx-vc96.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "shadowsocks-rust-ssmanager",
+				"purl": "pkg:apk/wolfi/shadowsocks-rust-ssmanager"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.21.2-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fvp8-r7cx-vc96.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "shadowsocks-rust-ssserver",
+				"purl": "pkg:apk/chainguard/shadowsocks-rust-ssserver"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.21.2-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fvp8-r7cx-vc96.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "shadowsocks-rust-ssserver",
+				"purl": "pkg:apk/wolfi/shadowsocks-rust-ssserver"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.21.2-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fvp8-r7cx-vc96.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "shadowsocks-rust-ssservice",
+				"purl": "pkg:apk/chainguard/shadowsocks-rust-ssservice"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.21.2-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fvp8-r7cx-vc96.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "shadowsocks-rust-ssservice",
+				"purl": "pkg:apk/wolfi/shadowsocks-rust-ssservice"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.21.2-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fvp8-r7cx-vc96.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "shadowsocks-rust-ssurl",
+				"purl": "pkg:apk/chainguard/shadowsocks-rust-ssurl"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.21.2-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fvp8-r7cx-vc96.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "shadowsocks-rust-ssurl",
+				"purl": "pkg:apk/wolfi/shadowsocks-rust-ssurl"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.21.2-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fvp8-r7cx-vc96.json"
+			}
+		}
+	]
+}
