@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-w76c-qqpj-ggw5",
+	"modified": "2024-12-31T15:13:17Z",
+	"published": "2024-12-31T16:08:38.816932Z",
+	"related": [
+		"CGA-w76c-qqpj-ggw5",
+		"CVE-2024-39908",
+		"GHSA-4xqq-m2hx-25v8"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "ruby3.3-fluentd-kubernetes-daemonset-1.17",
+				"purl": "pkg:apk/chainguard/ruby3.3-fluentd-kubernetes-daemonset-1.17"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.17.1.1.2-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-w76c-qqpj-ggw5.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "ruby3.3-fluentd-kubernetes-daemonset-1.17",
+				"purl": "pkg:apk/wolfi/ruby3.3-fluentd-kubernetes-daemonset-1.17"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.17.1.1.2-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-w76c-qqpj-ggw5.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "ruby3.3-fluentd-kubernetes-daemonset-1.17-kinesis",
+				"purl": "pkg:apk/chainguard/ruby3.3-fluentd-kubernetes-daemonset-1.17-kinesis"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.17.1.1.2-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-w76c-qqpj-ggw5.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "ruby3.3-fluentd-kubernetes-daemonset-1.17-kinesis",
+				"purl": "pkg:apk/wolfi/ruby3.3-fluentd-kubernetes-daemonset-1.17-kinesis"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.17.1.1.2-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-w76c-qqpj-ggw5.json"
+			}
+		}
+	]
+}
