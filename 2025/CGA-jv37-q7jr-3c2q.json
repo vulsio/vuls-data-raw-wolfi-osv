@@ -1,0 +1,58 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-jv37-q7jr-3c2q",
+	"modified": "2025-01-06T11:26:06Z",
+	"published": "2025-01-06T12:25:24.726813Z",
+	"related": [
+		"CGA-jv37-q7jr-3c2q",
+		"GHSA-wwq9-3cpr-mm53"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "berg",
+				"purl": "pkg:apk/chainguard/berg"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.4.7-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-jv37-q7jr-3c2q.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "berg",
+				"purl": "pkg:apk/wolfi/berg"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.4.7-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-jv37-q7jr-3c2q.json"
+			}
+		}
+	]
+}
