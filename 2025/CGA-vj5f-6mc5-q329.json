@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-vj5f-6mc5-q329",
+	"modified": "2025-01-07T14:23:50Z",
+	"published": "2025-01-07T15:08:37.732480Z",
+	"related": [
+		"CGA-vj5f-6mc5-q329",
+		"CVE-2024-56201",
+		"GHSA-gmj6-6f8f-6699"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kubeflow-jupyter-web-app",
+				"purl": "pkg:apk/chainguard/kubeflow-jupyter-web-app"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.9.2-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-vj5f-6mc5-q329.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "kubeflow-jupyter-web-app",
+				"purl": "pkg:apk/wolfi/kubeflow-jupyter-web-app"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.9.2-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-vj5f-6mc5-q329.json"
+			}
+		}
+	]
+}
