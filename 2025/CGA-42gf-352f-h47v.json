@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-42gf-352f-h47v",
+	"modified": "2025-01-07T20:11:43Z",
+	"published": "2025-01-07T21:08:35.729543Z",
+	"related": [
+		"CGA-42gf-352f-h47v",
+		"CVE-2025-21614",
+		"GHSA-r9px-m959-cxf4"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kubescape",
+				"purl": "pkg:apk/chainguard/kubescape"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.0.22-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-42gf-352f-h47v.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "kubescape",
+				"purl": "pkg:apk/wolfi/kubescape"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.0.22-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-42gf-352f-h47v.json"
+			}
+		}
+	]
+}
