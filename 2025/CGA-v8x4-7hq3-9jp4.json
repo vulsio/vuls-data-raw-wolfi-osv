@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-v8x4-7hq3-9jp4",
+	"modified": "2025-01-08T09:11:08Z",
+	"published": "2025-01-08T10:23:31.588736Z",
+	"related": [
+		"CGA-v8x4-7hq3-9jp4",
+		"CVE-2025-21614",
+		"GHSA-r9px-m959-cxf4"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "chezmoi",
+				"purl": "pkg:apk/chainguard/chezmoi"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.57.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-v8x4-7hq3-9jp4.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "chezmoi",
+				"purl": "pkg:apk/wolfi/chezmoi"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.57.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-v8x4-7hq3-9jp4.json"
+			}
+		}
+	]
+}
