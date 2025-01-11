@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-vg34-pw76-fp52",
+	"modified": "2025-01-11T08:18:31Z",
+	"published": "2025-01-11T09:08:05.218154Z",
+	"related": [
+		"CGA-vg34-pw76-fp52",
+		"CVE-2025-0241",
+		"GHSA-hh4j-jwjv-8726"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "firefox",
+				"purl": "pkg:apk/chainguard/firefox"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "134.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-vg34-pw76-fp52.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "firefox",
+				"purl": "pkg:apk/wolfi/firefox"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "134.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-vg34-pw76-fp52.json"
+			}
+		}
+	]
+}
