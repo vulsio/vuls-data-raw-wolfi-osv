@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-wxj5-j3c3-68x4",
+	"modified": "2025-01-29T11:15:16Z",
+	"published": "2025-01-29T12:07:46.307100Z",
+	"related": [
+		"CGA-wxj5-j3c3-68x4",
+		"CVE-2024-45339",
+		"GHSA-6wxm-mpqj-6jpf"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "step",
+				"purl": "pkg:apk/chainguard/step"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.28.2-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-wxj5-j3c3-68x4.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "step",
+				"purl": "pkg:apk/wolfi/step"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.28.2-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-wxj5-j3c3-68x4.json"
+			}
+		}
+	]
+}
