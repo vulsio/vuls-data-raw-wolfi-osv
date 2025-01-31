@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-gcm7-5jvr-vgqc",
+	"modified": "2025-01-30T20:21:19Z",
+	"published": "2025-01-30T21:22:53.986930Z",
+	"related": [
+		"CGA-gcm7-5jvr-vgqc",
+		"CVE-2024-45339",
+		"GHSA-6wxm-mpqj-6jpf"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "flyte",
+				"purl": "pkg:apk/chainguard/flyte"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.14.1-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-gcm7-5jvr-vgqc.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "flyte",
+				"purl": "pkg:apk/wolfi/flyte"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.14.1-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-gcm7-5jvr-vgqc.json"
+			}
+		}
+	]
+}
