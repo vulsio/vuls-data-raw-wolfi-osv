@@ -1,0 +1,197 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-86m7-vm4x-8jhv",
+	"modified": "2025-01-31T10:21:13Z",
+	"published": "2025-01-31T11:09:25.540251Z",
+	"related": [
+		"CGA-86m7-vm4x-8jhv",
+		"CVE-2024-45341",
+		"GHSA-3f6r-qh9c-x6mm"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "local-static-provisioner",
+				"purl": "pkg:apk/chainguard/local-static-provisioner"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.7.0-r11"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-86m7-vm4x-8jhv.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "local-static-provisioner",
+				"purl": "pkg:apk/wolfi/local-static-provisioner"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.7.0-r11"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-86m7-vm4x-8jhv.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "local-static-provisioner-compat",
+				"purl": "pkg:apk/chainguard/local-static-provisioner-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.7.0-r11"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-86m7-vm4x-8jhv.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "local-static-provisioner-compat",
+				"purl": "pkg:apk/wolfi/local-static-provisioner-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.7.0-r11"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-86m7-vm4x-8jhv.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "local-volume-node-cleanup",
+				"purl": "pkg:apk/chainguard/local-volume-node-cleanup"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.7.0-r11"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-86m7-vm4x-8jhv.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "local-volume-node-cleanup",
+				"purl": "pkg:apk/wolfi/local-volume-node-cleanup"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.7.0-r11"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-86m7-vm4x-8jhv.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "local-volume-node-cleanup-compat",
+				"purl": "pkg:apk/chainguard/local-volume-node-cleanup-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.7.0-r11"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-86m7-vm4x-8jhv.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "local-volume-node-cleanup-compat",
+				"purl": "pkg:apk/wolfi/local-volume-node-cleanup-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.7.0-r11"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-86m7-vm4x-8jhv.json"
+			}
+		}
+	]
+}
