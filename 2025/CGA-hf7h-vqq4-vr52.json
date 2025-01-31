@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-hf7h-vqq4-vr52",
+	"modified": "2025-01-31T13:19:08Z",
+	"published": "2025-01-31T14:11:49.535060Z",
+	"related": [
+		"CGA-hf7h-vqq4-vr52",
+		"CVE-2024-45336",
+		"GHSA-7wrw-r4p8-38rx"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "nuclei",
+				"purl": "pkg:apk/chainguard/nuclei"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.3.8-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-hf7h-vqq4-vr52.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "nuclei",
+				"purl": "pkg:apk/wolfi/nuclei"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.3.8-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-hf7h-vqq4-vr52.json"
+			}
+		}
+	]
+}
