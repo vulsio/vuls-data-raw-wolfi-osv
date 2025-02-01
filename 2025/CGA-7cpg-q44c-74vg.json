@@ -1,0 +1,197 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-7cpg-q44c-74vg",
+	"modified": "2025-01-31T18:14:28Z",
+	"published": "2025-01-31T19:08:42.686013Z",
+	"related": [
+		"CGA-7cpg-q44c-74vg",
+		"CVE-2024-45341",
+		"GHSA-3f6r-qh9c-x6mm"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "fluent-operator",
+				"purl": "pkg:apk/chainguard/fluent-operator"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.2.0-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-7cpg-q44c-74vg.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "fluent-operator",
+				"purl": "pkg:apk/wolfi/fluent-operator"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.2.0-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-7cpg-q44c-74vg.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "fluent-watcher",
+				"purl": "pkg:apk/chainguard/fluent-watcher"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.2.0-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-7cpg-q44c-74vg.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "fluent-watcher",
+				"purl": "pkg:apk/wolfi/fluent-watcher"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.2.0-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-7cpg-q44c-74vg.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "fluent-watcher-compat",
+				"purl": "pkg:apk/chainguard/fluent-watcher-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.2.0-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-7cpg-q44c-74vg.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "fluent-watcher-compat",
+				"purl": "pkg:apk/wolfi/fluent-watcher-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.2.0-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-7cpg-q44c-74vg.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "fluent-watcher-config",
+				"purl": "pkg:apk/chainguard/fluent-watcher-config"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.2.0-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-7cpg-q44c-74vg.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "fluent-watcher-config",
+				"purl": "pkg:apk/wolfi/fluent-watcher-config"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.2.0-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-7cpg-q44c-74vg.json"
+			}
+		}
+	]
+}

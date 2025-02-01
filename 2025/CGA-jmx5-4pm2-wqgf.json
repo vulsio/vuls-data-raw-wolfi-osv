@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-jmx5-4pm2-wqgf",
+	"modified": "2025-01-31T16:25:34Z",
+	"published": "2025-01-31T17:08:21.423451Z",
+	"related": [
+		"CGA-jmx5-4pm2-wqgf",
+		"CVE-2024-45341",
+		"GHSA-3f6r-qh9c-x6mm"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "nri-f5",
+				"purl": "pkg:apk/chainguard/nri-f5"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.8.1-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-jmx5-4pm2-wqgf.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "nri-f5",
+				"purl": "pkg:apk/wolfi/nri-f5"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.8.1-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-jmx5-4pm2-wqgf.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "nri-f5-compat",
+				"purl": "pkg:apk/chainguard/nri-f5-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.8.1-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-jmx5-4pm2-wqgf.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "nri-f5-compat",
+				"purl": "pkg:apk/wolfi/nri-f5-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.8.1-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-jmx5-4pm2-wqgf.json"
+			}
+		}
+	]
+}

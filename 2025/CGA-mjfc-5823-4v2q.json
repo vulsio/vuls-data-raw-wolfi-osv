@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-mjfc-5823-4v2q",
+	"modified": "2025-01-31T16:19:42Z",
+	"published": "2025-01-31T17:08:21.694016Z",
+	"related": [
+		"CGA-mjfc-5823-4v2q",
+		"CVE-2024-45341",
+		"GHSA-3f6r-qh9c-x6mm"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kubernetes-dashboard-metrics-scraper",
+				"purl": "pkg:apk/chainguard/kubernetes-dashboard-metrics-scraper"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.2.2-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mjfc-5823-4v2q.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "kubernetes-dashboard-metrics-scraper",
+				"purl": "pkg:apk/wolfi/kubernetes-dashboard-metrics-scraper"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.2.2-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mjfc-5823-4v2q.json"
+			}
+		}
+	]
+}
