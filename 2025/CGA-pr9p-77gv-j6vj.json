@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-pr9p-77gv-j6vj",
+	"modified": "2025-02-01T03:31:31Z",
+	"published": "2025-02-01T04:09:12.495753Z",
+	"related": [
+		"CGA-pr9p-77gv-j6vj",
+		"CVE-2024-45336",
+		"GHSA-7wrw-r4p8-38rx"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "git-lfs",
+				"purl": "pkg:apk/chainguard/git-lfs"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.6.1-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-pr9p-77gv-j6vj.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "git-lfs",
+				"purl": "pkg:apk/wolfi/git-lfs"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.6.1-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-pr9p-77gv-j6vj.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "git-lfs-config",
+				"purl": "pkg:apk/chainguard/git-lfs-config"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.6.1-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-pr9p-77gv-j6vj.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "git-lfs-config",
+				"purl": "pkg:apk/wolfi/git-lfs-config"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.6.1-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-pr9p-77gv-j6vj.json"
+			}
+		}
+	]
+}

@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-p646-8xx5-qfhq",
+	"modified": "2025-01-31T23:29:18Z",
+	"published": "2025-02-01T00:09:05.413615Z",
+	"related": [
+		"CGA-p646-8xx5-qfhq",
+		"CVE-2024-45341",
+		"GHSA-3f6r-qh9c-x6mm"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "secrets-store-csi-driver-provider-aws",
+				"purl": "pkg:apk/chainguard/secrets-store-csi-driver-provider-aws"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.3.10-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-p646-8xx5-qfhq.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "secrets-store-csi-driver-provider-aws",
+				"purl": "pkg:apk/wolfi/secrets-store-csi-driver-provider-aws"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.3.10-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-p646-8xx5-qfhq.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "secrets-store-csi-driver-provider-aws-compat",
+				"purl": "pkg:apk/chainguard/secrets-store-csi-driver-provider-aws-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.3.10-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-p646-8xx5-qfhq.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "secrets-store-csi-driver-provider-aws-compat",
+				"purl": "pkg:apk/wolfi/secrets-store-csi-driver-provider-aws-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.3.10-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-p646-8xx5-qfhq.json"
+			}
+		}
+	]
+}
