@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-8gmj-f48x-mhpm",
+	"modified": "2025-02-06T15:14:32Z",
+	"published": "2025-02-06T16:11:26.905047Z",
+	"related": [
+		"CGA-8gmj-f48x-mhpm",
+		"CVE-2025-1016",
+		"GHSA-mh3f-c34v-4q6q"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "firefox",
+				"purl": "pkg:apk/chainguard/firefox"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "135.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-8gmj-f48x-mhpm.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "firefox",
+				"purl": "pkg:apk/wolfi/firefox"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "135.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-8gmj-f48x-mhpm.json"
+			}
+		}
+	]
+}

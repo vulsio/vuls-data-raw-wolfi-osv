@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-xx6x-485m-jww8",
+	"modified": "2025-02-06T15:07:53Z",
+	"published": "2025-02-06T16:11:34.193223Z",
+	"related": [
+		"CGA-xx6x-485m-jww8",
+		"CVE-2025-1017",
+		"GHSA-2ccw-r7qp-2p9j"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "firefox",
+				"purl": "pkg:apk/chainguard/firefox"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "135.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-xx6x-485m-jww8.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "firefox",
+				"purl": "pkg:apk/wolfi/firefox"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "135.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-xx6x-485m-jww8.json"
+			}
+		}
+	]
+}
