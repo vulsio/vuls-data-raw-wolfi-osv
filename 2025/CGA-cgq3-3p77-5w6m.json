@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-cgq3-3p77-5w6m",
+	"modified": "2025-02-08T12:25:49Z",
+	"published": "2025-02-08T13:11:25.118305Z",
+	"related": [
+		"CGA-cgq3-3p77-5w6m",
+		"CVE-2025-22866",
+		"GHSA-3whm-j4xm-rv8x"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cert-manager-istio-csr",
+				"purl": "pkg:apk/chainguard/cert-manager-istio-csr"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.14.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-cgq3-3p77-5w6m.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "cert-manager-istio-csr",
+				"purl": "pkg:apk/wolfi/cert-manager-istio-csr"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.14.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-cgq3-3p77-5w6m.json"
+			}
+		}
+	]
+}
