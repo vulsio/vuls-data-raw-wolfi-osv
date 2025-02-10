@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-g6qj-cp3x-vvp8",
+	"modified": "2025-02-10T06:29:47Z",
+	"published": "2025-02-10T07:09:00.860939Z",
+	"related": [
+		"CGA-g6qj-cp3x-vvp8",
+		"CVE-2025-22866",
+		"GHSA-3whm-j4xm-rv8x"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "nri-postgresql",
+				"purl": "pkg:apk/chainguard/nri-postgresql"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.16.1-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-g6qj-cp3x-vvp8.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "nri-postgresql",
+				"purl": "pkg:apk/wolfi/nri-postgresql"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.16.1-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-g6qj-cp3x-vvp8.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "nri-postgresql-compat",
+				"purl": "pkg:apk/chainguard/nri-postgresql-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.16.1-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-g6qj-cp3x-vvp8.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "nri-postgresql-compat",
+				"purl": "pkg:apk/wolfi/nri-postgresql-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.16.1-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-g6qj-cp3x-vvp8.json"
+			}
+		}
+	]
+}
