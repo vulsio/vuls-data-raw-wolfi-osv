@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-fg42-vvrh-qf46",
+	"modified": "2025-02-09T22:23:03Z",
+	"published": "2025-02-09T23:08:56.985851Z",
+	"related": [
+		"CGA-fg42-vvrh-qf46",
+		"CVE-2025-22866",
+		"GHSA-3whm-j4xm-rv8x"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "yunikorn-web",
+				"purl": "pkg:apk/chainguard/yunikorn-web"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.6.1-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fg42-vvrh-qf46.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "yunikorn-web",
+				"purl": "pkg:apk/wolfi/yunikorn-web"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.6.1-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fg42-vvrh-qf46.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "yunikorn-web-compat",
+				"purl": "pkg:apk/chainguard/yunikorn-web-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.6.1-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fg42-vvrh-qf46.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "yunikorn-web-compat",
+				"purl": "pkg:apk/wolfi/yunikorn-web-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.6.1-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fg42-vvrh-qf46.json"
+			}
+		}
+	]
+}

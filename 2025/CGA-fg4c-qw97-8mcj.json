@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-fg4c-qw97-8mcj",
+	"modified": "2025-02-10T04:16:11Z",
+	"published": "2025-02-10T05:09:10.124821Z",
+	"related": [
+		"CGA-fg4c-qw97-8mcj",
+		"CVE-2025-22866",
+		"GHSA-3whm-j4xm-rv8x"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "mongo-tools",
+				"purl": "pkg:apk/chainguard/mongo-tools"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "100.11.0-r5"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fg4c-qw97-8mcj.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "mongo-tools",
+				"purl": "pkg:apk/wolfi/mongo-tools"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "100.11.0-r5"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-fg4c-qw97-8mcj.json"
+			}
+		}
+	]
+}
