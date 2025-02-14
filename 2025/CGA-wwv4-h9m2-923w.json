@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-wwv4-h9m2-923w",
+	"modified": "2025-02-14T13:24:53Z",
+	"published": "2025-02-14T14:01:51.700606Z",
+	"related": [
+		"CGA-wwv4-h9m2-923w",
+		"CVE-2025-0426",
+		"GHSA-jgfp-53c3-624w"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "rancher-agent-2.10",
+				"purl": "pkg:apk/chainguard/rancher-agent-2.10"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.10.2-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-wwv4-h9m2-923w.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "rancher-agent-2.10",
+				"purl": "pkg:apk/wolfi/rancher-agent-2.10"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.10.2-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-wwv4-h9m2-923w.json"
+			}
+		}
+	]
+}

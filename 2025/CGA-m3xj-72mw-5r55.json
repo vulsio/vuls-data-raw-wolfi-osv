@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-m3xj-72mw-5r55",
+	"modified": "2025-02-14T11:17:50Z",
+	"published": "2025-02-14T12:00:10.048072Z",
+	"related": [
+		"CGA-m3xj-72mw-5r55",
+		"CVE-2025-0426",
+		"GHSA-jgfp-53c3-624w"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "azuredisk-csi-1.31",
+				"purl": "pkg:apk/chainguard/azuredisk-csi-1.31"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.31.3-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-m3xj-72mw-5r55.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "azuredisk-csi-1.31",
+				"purl": "pkg:apk/wolfi/azuredisk-csi-1.31"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.31.3-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-m3xj-72mw-5r55.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "azuredisk-csi-1.31-compat",
+				"purl": "pkg:apk/chainguard/azuredisk-csi-1.31-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.31.3-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-m3xj-72mw-5r55.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Wolfi",
+				"name": "azuredisk-csi-1.31-compat",
+				"purl": "pkg:apk/wolfi/azuredisk-csi-1.31-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.31.3-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-m3xj-72mw-5r55.json"
+			}
+		}
+	]
+}
